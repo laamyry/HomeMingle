@@ -1,1 +1,0 @@
-medlaamyry {contact@medlaamyry.com}
