@@ -1,66 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</head>
-<body class="p-0 m-0 bg-lighty-100">
-<header class="flex items-center">
-    <nav class="flex justify-between items-center float-left w-[70%] mx-auto">
-        <div><img class="w-64" src="/images/Home-mangle-logo.png" alt="logo"></div>
-        <div class="nav md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[9%] md:w-auto w-full flex items-center px-5">
-            <ul class="font-us-light uppercase flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 mt-2 mx-auto">
-                <li class="hover:text-greeny-300"><a href="#">Home</a></li>
-                <li class="hover:text-greeny-300"><a href="#">Services</a></li>
-                <li class="hover:text-greeny-300"><a href="#">About us</a></li>
-                <li class="hover:text-greeny-300"><a href="#">blog</a></li>
-                <li class="hover:text-greeny-300"><a href="#"></a>Sign Up / Log In</li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="p-0 m-0 bg-lighty-100">
+    <header class="flex items-center">
+      <nav class="flex justify-between items-center float-left w-[90%] mx-auto">
+        <div>
+          <img class="w-64" src="/images/Home-mangle-logo.png" alt="logo" />
         </div>
-        <div class="flex justify-between items-center float-left ">
-            <a class=" flex items-center gap-[1vw] mt-2 mr-4" href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a class=" flex items-center gap-[1vw] mt-2" href="#"><i class="fa-brands fa-instagram"></i></a>
-            <ion-icon onclick="onToggleMenu(this)" class="mt-2 text-2xl cursor-pointer md:hidden" name="menu"></ion-icon>
-    </div>
-    </nav>
-</header>
-<div class="w-[20%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-40 text-2xl text-darky-700">
-    <p>Where Skills Meet Spaces, Crafting Homes to Perfection</p>
-
-</div>
-<div class="flex items-center mx-auto justify-center">
-    <!-- <form action="">
-        <SearchIcon class=""><i class="fa-light fa-magnifying-glass"></i></SearchIcon>
-        <input 
-            type="text"
-            name="search"
-            placeholder="Services near me"
-            autocomplete="off"
-            aria-label="Services near me"
-            class="px-3 py-2 font-us-light placeholder-gray-900 text-[#969696] rounded-full border-2 ring-gray-300 focus:ring-gray-500 focus:ring-2 bg-transparent w-auto"
-            
-            >
-    </form> -->
-
-    <div class="flex items-center justify-between rounded-full border mt-5 w-[25%] border-[#303030] bg-transparent px-3 py-2 shadow-sm">
-        <input type="search" class="w-full outline-none font-us-light pl-2" placeholder="Services near me">
-        <i class="fa fa-search text-greeny-300 p-2"></i>
+        <div
+          class="nav md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[9%] md:w-auto w-full flex items-center px-5"
+        >
+          <ul
+            class="font-us-light uppercase flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 mt-2 mx-auto mr-56"
+          >
+            <li class="hover:text-greeny-300"><a href="#">Home</a></li>
+            <li class="hover:text-greeny-300"><a href="#">Services</a></li>
+            <li class="hover:text-greeny-300"><a href="#">About us</a></li>
+            <li class="hover:text-greeny-300"><a href="#">blog</a></li>
+            <li class="hover:text-greeny-300">
+              <a href="#"></a>Sign Up / Log In
+            </li>
+          </ul>
+        </div>
+        <div class="flex justify-between items-center float-left">
+          <a class="flex items-center gap-[1vw] mt-2 mr-4" href="#"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a class="flex items-center gap-[1vw] mt-2" href="#"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <ion-icon
+            onclick="onToggleMenu(this)"
+            class="mt-2 text-2xl cursor-pointer md:hidden"
+            name="menu"
+          ></ion-icon>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <div
+        class="w-[20%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-20 text-2xl text-darky-700"
+      >
+        <p>Where Skills Meet Spaces, Crafting Homes to Perfection</p>
       </div>
-      
-</div>
-
-<script>
-    function onToggleMenu(e){
-        const navLinks = document.querySelector('.nav-link')
-        e.name = e.name === 'menu' ? 'close' : 'menu'
-        navLinks.classList.toggle('top-[9%]')
-    }
-
-</script>
-</body>
+      <img class="w-52" src="../images/Asset 2.png" alt="preceuse" />
+      <div class="flex items-center mx-auto justify-center">
+        <div
+          class="absolute flex items-center justify-between rounded-full border mt-5 w-[25%] border-[#303030] bg-transparent px-3 py-2 shadow-sm"
+        >
+          <input
+            type="search"
+            class="w-full outline-none font-us-light pl-2"
+            placeholder="Services near me"
+          />
+          <i class="fa fa-search text-greeny-300 p-2"></i>
+        </div>
+        <img
+          class="w-52 float-right ml-40"
+          src="../images/Asset 1.png"
+          alt="preceuse"
+        />
+      </div>
+    </div>
+  </body>
 </html>

@@ -707,6 +707,22 @@ video {
   margin-top: 2rem;
 }
 
+.mr-60 {
+  margin-right: 15rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mr-56 {
+  margin-right: 14rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
 .line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
@@ -868,6 +884,26 @@ video {
 
 .w-\[25\%\] {
   width: 25%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .min-w-0 {
