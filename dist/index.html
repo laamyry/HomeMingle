@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./node_modules/vue/dist/vue.js"></script>
   </head>
   <body class="p-0 m-0 bg-lighty-100">
     <header class="flex items-center">
@@ -52,9 +53,24 @@
 
     <div id="cards" class="flex justify-center mx-auto">
       <div id="title" class="text-center font-us-bold uppercase text-darky-700">
-        <h2 class="overline">Trending services</h2>
+        <h2 class="">Trending services</h2>
       </div>
-      <div id="card"></div>
+      <div id="card">
+        <div id="card1">
+          <img src="/images/cleaning.jpg" alt="woman cleaning" />
+          <div id="title1">{{ title }}</div>
+        </div>
+      </div>
     </div>
+
+    <script>
+      var app = new Vue({
+        el: 'cards',
+        date: {
+          title: 'Home Cleaning',
+          price: 'Starting at 80$ per session',
+        },
+      })
+    </script>
   </body>
 </html>
