@@ -4,21 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </head>
   <body class="p-0 m-0 bg-lighty-100">
     <header class="flex items-center">
@@ -26,60 +14,47 @@
         <div>
           <img class="w-64" src="/images/Home-mangle-logo.png" alt="logo" />
         </div>
-        <div
-          class="nav md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[9%] md:w-auto w-full flex items-center px-5"
-        >
-          <ul
-            class="font-us-light uppercase flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 mt-2 mx-auto mr-56"
-          >
+        <div class="nav md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[9%] md:w-auto w-full flex items-center px-5">
+          <ul class="font-us-light uppercase flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 mt-2 mx-auto mr-56">
             <li class="hover:text-greeny-300"><a href="#">Home</a></li>
             <li class="hover:text-greeny-300"><a href="#">Services</a></li>
             <li class="hover:text-greeny-300"><a href="#">About us</a></li>
             <li class="hover:text-greeny-300"><a href="#">blog</a></li>
-            <li class="hover:text-greeny-300">
-              <a href="#"></a>Sign Up / Log In
-            </li>
+            <li class="hover:text-greeny-300"><a href="#"></a>Sign Up / Log In</li>
           </ul>
         </div>
         <div class="flex justify-between items-center float-left">
-          <a class="flex items-center gap-[1vw] mt-2 mr-4" href="#"
-            ><i class="fa-brands fa-facebook-f"></i
-          ></a>
-          <a class="flex items-center gap-[1vw] mt-2" href="#"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <ion-icon
-            onclick="onToggleMenu(this)"
-            class="mt-2 text-2xl cursor-pointer md:hidden"
-            name="menu"
-          ></ion-icon>
+          <a class="flex items-center gap-[1vw] mt-2 mr-4" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="flex items-center gap-[1vw] mt-2" href="#"><i class="fa-brands fa-instagram"></i></a>
+          <ion-icon onclick="onToggleMenu(this)" class="mt-2 text-2xl cursor-pointer md:hidden" name="menu"></ion-icon>
         </div>
       </nav>
     </header>
-    <div>
-      <div
-        class="w-[20%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-20 text-2xl text-darky-700"
-      >
-        <p>Where Skills Meet Spaces, Crafting Homes to Perfection</p>
+    <div class="w-[25%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-20 text-2xl text-darky-700">
+      <p>Where Skills Meet Spaces, Crafting Homes to Perfection</p>
+    </div>
+    <div id="container" class="flex items-center">
+      <div class="flex justify-between items-center float-left w-[80%] mx-auto">
+        <dvi id="image1">
+          <img src="/images/hammer.png" class="w-52" alt="hammer" />
+        </dvi>
+        <dvi id="search" class="max-w-md mx-auto w-[40%]">
+          <div class="p-2 border border-[#303030] rounded-full relative">
+            <input type="search" placeholder="Services near me" class="px-3 py-3 bg-transparent border-transparent outline-none" />
+            <i class="fa fa-search text-greeny-300 p-2 float-right"></i>
+          </div>
+        </dvi>
+        <dvi id="image2">
+          <img src="/images/drill.png" class="w-52" alt="drill" />
+        </dvi>
       </div>
-      <img class="w-52" src="../images/Asset 2.png" alt="preceuse" />
-      <div class="flex items-center mx-auto justify-center">
-        <div
-          class="absolute flex items-center justify-between rounded-full border mt-5 w-[25%] border-[#303030] bg-transparent px-3 py-2 shadow-sm"
-        >
-          <input
-            type="search"
-            class="w-full outline-none font-us-light pl-2"
-            placeholder="Services near me"
-          />
-          <i class="fa fa-search text-greeny-300 p-2"></i>
-        </div>
-        <img
-          class="w-52 float-right ml-40"
-          src="../images/Asset 1.png"
-          alt="preceuse"
-        />
+    </div>
+
+    <div id="cards" class="flex justify-center mx-auto">
+      <div id="title" class="text-center font-us-bold uppercase text-darky-700">
+        <h2 class="overline">Trending services</h2>
       </div>
+      <div id="card"></div>
     </div>
   </body>
 </html>
