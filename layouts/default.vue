@@ -11,20 +11,20 @@ import type { NuxtLink } from '#build/components'
             <span class="md:hidden"> We announced a new product! </span>
             <span class="hidden md:inline"> Big news! We're excited to announce a brand new product. </span>
             <span class="block sm:ml-2 sm:inline-block">
-              <a href="#" class="text-white font-bold underline"> Learn more <span aria-hidden="true">&rarr;</span></a>
+              <a href="#" class="text-lighty-100 font-bold underline"> Learn more <span aria-hidden="true">&rarr;</span></a>
             </span>
           </p>
         </div>
         <div class="absolute inset-y-0 right-0 pt-1 pr-1 flex items-start sm:pt-1 sm:pr-2 sm:items-start">
-          <button type="button" class="flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white">
+          <button type="button" class="flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-lighty-100">
             <span class="sr-only">Dismiss</span>
-            <XIcon class="h-6 w-6 text-white" aria-hidden="true" />
+            <XIcon class="h-6 w-6 text-lighty-100" aria-hidden="true" />
           </button>
         </div>
       </div>
     </div>
 
-    <header class="flex items-center">
+    <header class="flex items-center selection:bg-greeny-300">
       <nav class="flex justify-between items-center float-left w-[90%] mx-auto">
         <div>
           <img class="w-64" src="/images/Home-mangle-logo.png" alt="logo" />
