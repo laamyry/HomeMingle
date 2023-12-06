@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Us Thin';
+    src: url('../fonts/Us_Thin.otf') format('opentype');
+    font-weight: 100;
+  }
+  
+@font-face {
+    font-family: 'Us Light';
+    src: url('../fonts/Us_Light.otf') format('opentype');
+    font-weight: 200;
+  }
+
+  @font-face {
+    font-family: 'Us Regular';
+    src: url('../fonts/Us_Regular.otf') format('opentype');
+    font-weight: 300;
+  }
+
+@font-face {
+    font-family: 'Us SemiBold';
+    src: url('../fonts/Us_SemiBold.otf') format('opentype');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Us Bold';
+    src: url('../fonts/Us_Bold.otf') format('opentype');
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: 'Us Heavy';
+    src: url('../fonts/US_Heavy.otf') format('opentype');
+    font-weight: 600;
+  }
+
+@font-face {
+    font-family: 'Us Book';
+    src: url('../fonts/Us_Book.otf') format('opentype');
+    font-weight: 700;
+  }
