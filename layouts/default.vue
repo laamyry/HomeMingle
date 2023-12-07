@@ -52,8 +52,8 @@ import type { NuxtLink } from '#build/components'
     <div class="max-w-full">
       <div class="px-6 py-6 bg-greeny-300 md:px-12 lg:py-10 lg:px-16 xl:flex xl:items-center">
         <div class="xl:w-0 xl:flex-1">
-          <h2 class="text-2xl font-extrabold tracking-tight text-darky-700 sm:text-3xl">Want product news and updates?</h2>
-          <p class="mt-3 max-w-3xl text-lg leading-6 text-darky-700">Sign up for our newsletter to stay up to date.</p>
+          <h2 class="text-2xl font-us-heavy uppercase tracking-tight text-darky-700 sm:text-3xl">Unlock Home Secrets:</h2>
+          <p class="mt-2 max-w-3xl font-us-semi-bold text-lg leading-6 text-darky-700">Subscribe for Exclusive Updates!</p>
         </div>
         <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
           <form class="sm:flex">
