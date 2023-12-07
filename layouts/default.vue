@@ -2,7 +2,7 @@
 import type { NuxtLink } from '#build/components'
 </script>
 
-<template>
+<template class="bg-black p-0 m-0">
   <div>
     <div class="relative bg-greeny-300">
       <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
@@ -35,7 +35,7 @@ import type { NuxtLink } from '#build/components'
             <li class="hover:text-greeny-300"><NuxtLink to="/services">Services</NuxtLink></li>
             <li class="hover:text-greeny-300"><NuxtLink to="/about-us">About us</NuxtLink></li>
             <li class="hover:text-greeny-300"><NuxtLink to="/blog">blog</NuxtLink></li>
-            <li class="hover:text-greeny-300"><NuxtLink to="/account"></NuxtLink>Account</li>
+            <li class="hover:text-greeny-300"><NuxtLink to="/account">Account</NuxtLink></li>
           </ul>
         </div>
         <div class="flex justify-between items-center float-left">
@@ -48,6 +48,23 @@ import type { NuxtLink } from '#build/components'
     <slot />
   </div>
 
+  <div class="">
+    <div class="max-w-full">
+      <div class="px-6 py-6 bg-greeny-300 md:px-12 lg:py-10 lg:px-16 xl:flex xl:items-center">
+        <div class="xl:w-0 xl:flex-1">
+          <h2 class="text-2xl font-extrabold tracking-tight text-darky-700 sm:text-3xl">Want product news and updates?</h2>
+          <p class="mt-3 max-w-3xl text-lg leading-6 text-darky-700">Sign up for our newsletter to stay up to date.</p>
+        </div>
+        <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
+          <form class="sm:flex">
+            <label for="email-address" class="sr-only">Email address</label>
+            <input id="email-address" name="email-address" type="email" autocomplete="email" required class="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white rounded-md" placeholder="Enter your email" />
+            <button type="submit" class="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent shadow text-base font-medium rounded-md text-white bg-darky-700 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0">Notify me</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer class="bg-[#00110A]">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">

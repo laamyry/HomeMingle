@@ -1,4 +1,4 @@
-<template>
+<template class="p-0 m-0">
   <div class="selection:bg-greeny-300">
     <div class="w-[25%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-20 text-2xl text-darky-700">
       <p>Where Skills Meet Spaces, Crafting Homes to Perfection</p>
