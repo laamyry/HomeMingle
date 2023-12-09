@@ -1,0 +1,223 @@
+{
+  "resolvedId": "/home/laamyry/alx/HomeMingle/pages/index.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template class=\"p-0 m-0\">\n  <div class=\"selection:bg-greeny-300\">\n    <div class=\"w-[25%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-20 text-2xl text-darky-700\">\n      <p>Where Skills Meet Spaces, Crafting Homes to Perfection</p>\n    </div>\n    <div id=\"container\" class=\"flex items-center\">\n      <div id=\"search\" class=\"flex justify-between items-center float-left w-[80%] mx-auto\">\n        <dvi id=\"image1\">\n          <img src=\"/images/hammer.png\" class=\"w-52\" alt=\"hammer\" />\n        </dvi>\n        <dvi id=\"search\" class=\"max-w-md mx-auto w-[40%]\">\n          <div class=\"p-2 border border-[#303030] rounded-full relative\">\n            <input type=\"search\" placeholder=\"Services near me\" class=\"px-3 bg-transparent border-transparent outline-none w-[92%]\" />\n            <Icon name=\"fa6-solid:magnifying-glass\" class=\"text-greeny-300\" />\n          </div>\n        </dvi>\n        <dvi id=\"image2\">\n          <img src=\"/images/drill.png\" class=\"w-52\" alt=\"drill\" />\n        </dvi>\n      </div>\n    </div>\n    <div id=\"title\" class=\"text-center font-us-bold uppercase text-darky-700\">\n      <h2 class=\"underline decoration-4 underline-offset-4 mb-14\">Trending services</h2>\n    </div>\n    <div id=\"car_container\" class=\"flex justify-center flex-row items-center mx-auto max-w-md gap-5\">\n      <span v-for=\"item in services\" :key=\"item.id\">\n        <div id=\"card\" class=\"flex flex-col w-64 text-center justify-center\">\n          <div id=\"image\" class=\"shadow-lg\">\n            <img :src=\"item.image\" :alt=\"item.title\" />\n          </div>\n          <div :id=\"'id' + item.id\" class=\"w-60 self-center bg-[#EAEAEA] rounded-b-md shadow-md p-1\">\n            <div id=\"titl\" class=\"font-us-semi-bold text-md uppercase text-darky-700\">\n              {{ item.title }}\n            </div>\n            <div id=\"price\" class=\"font-us-regular text-darky-700\">\n              {{ 'Starting at ' + item.price + '€' }}\n            </div>\n          </div>\n        </div>\n      </span>\n    </div>\n    <div id=\"title\" class=\"text-center font-us-bold uppercase text-darky-700\">\n      <h2 class=\"underline decoration-4 underline-offset-4 mt-16\">customers talking</h2>\n    </div>\n\n    <div class=\"w-full flex items-center justify-center mx-auto mt-2\">\n      <figure class=\"flex justify-center flex-row mx-auto gap-16 mt-9 self-center\">\n        <span v-for=\"item in review\" :key=\"item.id\">\n          <div class=\"flex flex-row items-center\">\n            <div class=\"flex items-center\">\n              <p class=\"pe-3 font-us-semi-bold text-darky-700 text-2xl\">{{ item.username }}</p>\n            </div>\n\n            <div class=\"flex items-center text-greeny-300\">\n              <svg class=\"w-5 h-5 me-1\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\">\n                <path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\" />\n              </svg>\n              <svg class=\"w-5 h-5 me-1\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\">\n                <path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\" />\n              </svg>\n              <svg class=\"w-5 h-5 me-1\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\">\n                <path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\" />\n              </svg>\n              <svg class=\"w-5 h-5 me-1\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\">\n                <path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\" />\n              </svg>\n              <svg class=\"w-5 h-5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\">\n                <path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\" />\n              </svg>\n            </div>\n          </div>\n\n          <blockquote class=\"w-72 text-justify\">\n            <p class=\"text-1xl font-us-regular text-darky-700\">\"{{ item.review }}\"</p>\n          </blockquote>\n          <figcaption class=\"flex items-center mt-6 space-x-3 rtl:space-x-reverse\"></figcaption>\n        </span>\n      </figure>\n    </div>\n  </div>\n</template>\n\n<script lang=\"ts\" setup>\nconst services = [\n  {\n    id: 1,\n    title: 'Home Cleaning',\n    image: '/images/cleaning.jpg',\n    price: 80,\n  },\n  {\n    id: 2,\n    title: 'Security Installation',\n    image: '/images/sec.jpg',\n    price: 150,\n  },\n  {\n    id: 3,\n    title: 'Electrical Maintenance',\n    image: '/images/electric.jpg',\n    price: 90,\n  },\n  {\n    id: 4,\n    title: 'Furniture Assembly',\n    image: '/images/furniture.jpeg',\n    price: 60,\n  },\n  {\n    id: 5,\n    title: 'Interior Painting',\n    image: '/images/paint.jpg',\n    price: 120,\n  },\n]\n\nconst review = [\n  {\n    id: 1,\n    username: 'Sarah J',\n    review: 'Home Mingle Hub made finding a skilled plumber so easy! The platform is user-friendly, and I quickly connected with a reliable professional. The service was prompt, and the plumber did an excellent job. Highly recommend!',\n  },\n  {\n    id: 2,\n    username: 'Mike R',\n    review: 'Used Home Mingle Hub for electrical repairs, and it was a great experience. The professional was knowledgeable and fixed the issue efficiently. The only suggestion would be to add more professionals in my area.',\n  },\n  {\n    id: 3,\n    username: 'Alex M',\n    review: \"Home Mingle Hub is a game-changer for home services. I found an amazing landscaper for my garden. The process was smooth, but I wish there were more details about each professional's expertise on their profiles.\",\n  },\n  {\n    id: 4,\n    username: 'Med L',\n    review: \"Aleksandr was fantastic! He came with all the equipment to do the job, even the hardware I didn't know I would need. He hung a heavy chandelier perfectly and fixed a cabinet to our wall. 100% would hire\",\n  },\n]\n</script>\n\n<style>\n#search {\n  margin-top: -25px;\n}\n\n#id1 {\n}\n</style>\n",
+      "start": 1702085560821,
+      "end": 1702085562559,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702085562560,
+      "end": 1702085562560,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702085562560,
+      "end": 1702085562561,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702085562561,
+      "end": 1702085562561,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702085562561,
+      "end": 1702085562561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702085562561,
+      "end": 1702085562561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702085562561,
+      "end": 1702085562561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702085562561,
+      "end": 1702085562561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/home/laamyry/alx/HomeMingle/pages/index.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/home/laamyry/alx/HomeMingle/pages/index.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/home/laamyry/alx/HomeMingle/pages/index.vue?vue&type=style&index=0&lang.css\";\nexport default _sfc_main;\n",
+      "start": 1702085562561,
+      "end": 1702085563518,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702085563518,
+      "end": 1702085563518,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085563518,
+      "end": 1702085563518,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702085563519,
+      "end": 1702085563519,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702085563520,
+      "end": 1702085563520,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702085563520,
+      "end": 1702085563520,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702085563521,
+      "end": 1702085563521,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "export { default } from \"/home/laamyry/alx/HomeMingle/pages/index.vue?macro=true&vue&type=script&setup=true&lang.ts\"",
+      "start": 1702085563522,
+      "end": 1702085563522,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA"
+      }
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702085563522,
+      "end": 1702085563522,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702085563522,
+      "end": 1702085563522,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702085563523,
+      "end": 1702085563523,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702085563523,
+      "end": 1702085563523,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702085563523,
+      "end": 1702085563524,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702085563524,
+      "end": 1702085563524,
+      "order": "normal"
+    }
+  ]
+}

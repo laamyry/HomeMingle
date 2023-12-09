@@ -1,0 +1,230 @@
+{
+  "resolvedId": "/home/laamyry/alx/HomeMingle/pages/services.vue?macro=true&vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString } from \"vue\"\n\nconst _hoisted_1 = {\n  id: \"car_container\",\n  class: \"flex justify-center flex-row items-center mx-auto max-w-md m-10 gap-5\"\n}\nconst _hoisted_2 = {\n  id: \"card\",\n  class: \"flex flex-col w-64 justify-center\"\n}\nconst _hoisted_3 = {\n  id: \"image\",\n  class: \"shadow-lg\"\n}\nconst _hoisted_4 = [\"src\", \"alt\"]\nconst _hoisted_5 = [\"id\"]\nconst _hoisted_6 = {\n  id: \"titl\",\n  class: \"font-us-semi-bold text-md uppercase text-darky-700\"\n}\nconst _hoisted_7 = {\n  id: \"price\",\n  class: \"font-us-regular text-darky-700\"\n}\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'services',\n  setup(__props) {\n\nconst category = [\n  {\n    id: 1,\n    title: 'Home Cleaning',\n    image: '/images/cleaning.jpg',\n    description: 80,\n  },\n  {\n    id: 2,\n    title: 'Security Installation',\n    image: '/images/sec.jpg',\n    price: 150,\n  },\n  {\n    id: 3,\n    title: 'Electrical Maintenance',\n    image: '/images/electric.jpg',\n    price: 90,\n  },\n  {\n    id: 4,\n    title: 'Furniture Assembly',\n    image: '/images/furniture.jpeg',\n    price: 60,\n  },\n  {\n    id: 5,\n    title: 'Interior Painting',\n    image: '/images/paint.jpg',\n    price: 120,\n  },\n]\n\nconst review = [\n  {\n    id: 1,\n    username: 'Sarah J',\n    review: 'Home Mingle Hub made finding a skilled plumber so easy! The platform is user-friendly, and I quickly connected with a reliable professional. The service was prompt, and the plumber did an excellent job. Highly recommend!',\n  },\n  {\n    id: 2,\n    username: 'Mike R',\n    review: 'Used Home Mingle Hub for electrical repairs, and it was a great experience. The professional was knowledgeable and fixed the issue efficiently. The only suggestion would be to add more professionals in my area.',\n  },\n  {\n    id: 3,\n    username: 'Alex M',\n    review: \"Home Mingle Hub is a game-changer for home services. I found an amazing landscaper for my garden. The process was smooth, but I wish there were more details about each professional's expertise on their profiles.\",\n  },\n  {\n    id: 4,\n    username: 'Med L',\n    review: \"Aleksandr was fantastic! He came with all the equipment to do the job, even the hardware I didn't know I would need. He hung a heavy chandelier perfectly and fixed a cabinet to our wall. 100% would hire\",\n  },\n]\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    (_openBlock(), _createElementBlock(_Fragment, null, _renderList(category, (item) => {\n      return _createElementVNode(\"span\", {\n        key: item.id\n      }, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"div\", _hoisted_3, [\n            _createElementVNode(\"img\", {\n              src: item.image,\n              alt: item.title\n            }, null, 8, _hoisted_4)\n          ]),\n          _createElementVNode(\"div\", {\n            id: 'id' + item.id,\n            class: \"w-64 h-96 self-center py-2 px-3 bg-[#EAEAEA] rounded-b-md shadow-md p-1\"\n          }, [\n            _createElementVNode(\"div\", _hoisted_6, _toDisplayString(item.title), 1),\n            _createElementVNode(\"div\", _hoisted_7, _toDisplayString('Starting at ' + item.price + '€'), 1)\n          ], 8, _hoisted_5)\n        ])\n      ])\n    }), 64))\n  ]))\n}\n}\n\n})",
+      "start": 1702085564436,
+      "end": 1702085564436
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702085564437,
+      "end": 1702085564437,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702085564437,
+      "end": 1702085564437,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702085564437,
+      "end": 1702085564437,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702085564437,
+      "end": 1702085564437,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString } from \"vue\";\nconst _hoisted_1 = {\n  id: \"car_container\",\n  class: \"flex justify-center flex-row items-center mx-auto max-w-md m-10 gap-5\"\n};\nconst _hoisted_2 = {\n  id: \"card\",\n  class: \"flex flex-col w-64 justify-center\"\n};\nconst _hoisted_3 = {\n  id: \"image\",\n  class: \"shadow-lg\"\n};\nconst _hoisted_4 = [\"src\", \"alt\"];\nconst _hoisted_5 = [\"id\"];\nconst _hoisted_6 = {\n  id: \"titl\",\n  class: \"font-us-semi-bold text-md uppercase text-darky-700\"\n};\nconst _hoisted_7 = {\n  id: \"price\",\n  class: \"font-us-regular text-darky-700\"\n};\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"services\",\n  setup(__props) {\n    const category = [\n      {\n        id: 1,\n        title: \"Home Cleaning\",\n        image: \"/images/cleaning.jpg\",\n        description: 80\n      },\n      {\n        id: 2,\n        title: \"Security Installation\",\n        image: \"/images/sec.jpg\",\n        price: 150\n      },\n      {\n        id: 3,\n        title: \"Electrical Maintenance\",\n        image: \"/images/electric.jpg\",\n        price: 90\n      },\n      {\n        id: 4,\n        title: \"Furniture Assembly\",\n        image: \"/images/furniture.jpeg\",\n        price: 60\n      },\n      {\n        id: 5,\n        title: \"Interior Painting\",\n        image: \"/images/paint.jpg\",\n        price: 120\n      }\n    ];\n    const review = [\n      {\n        id: 1,\n        username: \"Sarah J\",\n        review: \"Home Mingle Hub made finding a skilled plumber so easy! The platform is user-friendly, and I quickly connected with a reliable professional. The service was prompt, and the plumber did an excellent job. Highly recommend!\"\n      },\n      {\n        id: 2,\n        username: \"Mike R\",\n        review: \"Used Home Mingle Hub for electrical repairs, and it was a great experience. The professional was knowledgeable and fixed the issue efficiently. The only suggestion would be to add more professionals in my area.\"\n      },\n      {\n        id: 3,\n        username: \"Alex M\",\n        review: \"Home Mingle Hub is a game-changer for home services. I found an amazing landscaper for my garden. The process was smooth, but I wish there were more details about each professional's expertise on their profiles.\"\n      },\n      {\n        id: 4,\n        username: \"Med L\",\n        review: \"Aleksandr was fantastic! He came with all the equipment to do the job, even the hardware I didn't know I would need. He hung a heavy chandelier perfectly and fixed a cabinet to our wall. 100% would hire\"\n      }\n    ];\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        (_openBlock(), _createElementBlock(_Fragment, null, _renderList(category, (item) => {\n          return _createElementVNode(\"span\", {\n            key: item.id\n          }, [\n            _createElementVNode(\"div\", _hoisted_2, [\n              _createElementVNode(\"div\", _hoisted_3, [\n                _createElementVNode(\"img\", {\n                  src: item.image,\n                  alt: item.title\n                }, null, 8, _hoisted_4)\n              ]),\n              _createElementVNode(\"div\", {\n                id: \"id\" + item.id,\n                class: \"w-64 h-96 self-center py-2 px-3 bg-[#EAEAEA] rounded-b-md shadow-md p-1\"\n              }, [\n                _createElementVNode(\"div\", _hoisted_6, _toDisplayString(item.title), 1),\n                _createElementVNode(\"div\", _hoisted_7, _toDisplayString(\"Starting at \" + item.price + \"€\"), 1)\n              ], 8, _hoisted_5)\n            ])\n          ]);\n        }), 64))\n      ]);\n    };\n  }\n});\n",
+      "start": 1702085564438,
+      "end": 1702085566218,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/laamyry/alx/HomeMingle/pages/services.vue?macro=true&vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString } from \"vue\"\n\nconst _hoisted_1 = {\n  id: \"car_container\",\n  class: \"flex justify-center flex-row items-center mx-auto max-w-md m-10 gap-5\"\n}\nconst _hoisted_2 = {\n  id: \"card\",\n  class: \"flex flex-col w-64 justify-center\"\n}\nconst _hoisted_3 = {\n  id: \"image\",\n  class: \"shadow-lg\"\n}\nconst _hoisted_4 = [\"src\", \"alt\"]\nconst _hoisted_5 = [\"id\"]\nconst _hoisted_6 = {\n  id: \"titl\",\n  class: \"font-us-semi-bold text-md uppercase text-darky-700\"\n}\nconst _hoisted_7 = {\n  id: \"price\",\n  class: \"font-us-regular text-darky-700\"\n}\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'services',\n  setup(__props) {\n\nconst category = [\n  {\n    id: 1,\n    title: 'Home Cleaning',\n    image: '/images/cleaning.jpg',\n    description: 80,\n  },\n  {\n    id: 2,\n    title: 'Security Installation',\n    image: '/images/sec.jpg',\n    price: 150,\n  },\n  {\n    id: 3,\n    title: 'Electrical Maintenance',\n    image: '/images/electric.jpg',\n    price: 90,\n  },\n  {\n    id: 4,\n    title: 'Furniture Assembly',\n    image: '/images/furniture.jpeg',\n    price: 60,\n  },\n  {\n    id: 5,\n    title: 'Interior Painting',\n    image: '/images/paint.jpg',\n    price: 120,\n  },\n]\n\nconst review = [\n  {\n    id: 1,\n    username: 'Sarah J',\n    review: 'Home Mingle Hub made finding a skilled plumber so easy! The platform is user-friendly, and I quickly connected with a reliable professional. The service was prompt, and the plumber did an excellent job. Highly recommend!',\n  },\n  {\n    id: 2,\n    username: 'Mike R',\n    review: 'Used Home Mingle Hub for electrical repairs, and it was a great experience. The professional was knowledgeable and fixed the issue efficiently. The only suggestion would be to add more professionals in my area.',\n  },\n  {\n    id: 3,\n    username: 'Alex M',\n    review: \"Home Mingle Hub is a game-changer for home services. I found an amazing landscaper for my garden. The process was smooth, but I wish there were more details about each professional's expertise on their profiles.\",\n  },\n  {\n    id: 4,\n    username: 'Med L',\n    review: \"Aleksandr was fantastic! He came with all the equipment to do the job, even the hardware I didn't know I would need. He hung a heavy chandelier perfectly and fixed a cabinet to our wall. 100% would hire\",\n  },\n]\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    (_openBlock(), _createElementBlock(_Fragment, null, _renderList(category, (item) => {\n      return _createElementVNode(\"span\", {\n        key: item.id\n      }, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"div\", _hoisted_3, [\n            _createElementVNode(\"img\", {\n              src: item.image,\n              alt: item.title\n            }, null, 8, _hoisted_4)\n          ]),\n          _createElementVNode(\"div\", {\n            id: 'id' + item.id,\n            class: \"w-64 h-96 self-center py-2 px-3 bg-[#EAEAEA] rounded-b-md shadow-md p-1\"\n          }, [\n            _createElementVNode(\"div\", _hoisted_6, _toDisplayString(item.title), 1),\n            _createElementVNode(\"div\", _hoisted_7, _toDisplayString('Starting at ' + item.price + '€'), 1)\n          ], 8, _hoisted_5)\n        ])\n      ])\n    }), 64))\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,cAAc,aAAa,YAAY,WAAW,aAAa,YAAY,sBAAsB,qBAAqB,sBAAsB,qBAAqB,mBAAmB,wBAAwB;AAErN,MAAM,aAAa;AAAA,EACjB,IAAI;AAAA,EACJ,OAAO;AACT;AACA,MAAM,aAAa;AAAA,EACjB,IAAI;AAAA,EACJ,OAAO;AACT;AACA,MAAM,aAAa;AAAA,EACjB,IAAI;AAAA,EACJ,OAAO;AACT;AACA,MAAM,aAAa,CAAC,OAAO,KAAK;AAChC,MAAM,aAAa,CAAC,IAAI;AACxB,MAAM,aAAa;AAAA,EACjB,IAAI;AAAA,EACJ,OAAO;AACT;AACA,MAAM,aAAa;AAAA,EACjB,IAAI;AAAA,EACJ,OAAO;AACT;AAGA,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,WAAW;AAAA,MACf;AAAA,QACE,IAAI;AAAA,QACJ,OAAO;AAAA,QACP,OAAO;AAAA,QACP,aAAa;AAAA,MACf;AAAA,MACA;AAAA,QACE,IAAI;AAAA,QACJ,OAAO;AAAA,QACP,OAAO;AAAA,QACP,OAAO;AAAA,MACT;AAAA,MACA;AAAA,QACE,IAAI;AAAA,QACJ,OAAO;AAAA,QACP,OAAO;AAAA,QACP,OAAO;AAAA,MACT;AAAA,MACA;AAAA,QACE,IAAI;AAAA,QACJ,OAAO;AAAA,QACP,OAAO;AAAA,QACP,OAAO;AAAA,MACT;AAAA,MACA;AAAA,QACE,IAAI;AAAA,QACJ,OAAO;AAAA,QACP,OAAO;AAAA,QACP,OAAO;AAAA,MACT;AAAA,IACF;AAEA,UAAM,SAAS;AAAA,MACb;AAAA,QACE,IAAI;AAAA,QACJ,UAAU;AAAA,QACV,QAAQ;AAAA,MACV;AAAA,MACA;AAAA,QACE,IAAI;AAAA,QACJ,UAAU;AAAA,QACV,QAAQ;AAAA,MACV;AAAA,MACA;AAAA,QACE,IAAI;AAAA,QACJ,UAAU;AAAA,QACV,QAAQ;AAAA,MACV;AAAA,MACA;AAAA,QACE,IAAI;AAAA,QACJ,UAAU;AAAA,QACV,QAAQ;AAAA,MACV;AAAA,IACF;AAEA,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,oBAAoB,OAAO,YAAY;AAAA,SAC1D,WAAW,GAAG,oBAAoB,WAAW,MAAM,YAAY,UAAU,CAAC,SAAS;AAClF,iBAAO,oBAAoB,QAAQ;AAAA,YACjC,KAAK,KAAK;AAAA,UACZ,GAAG;AAAA,YACD,oBAAoB,OAAO,YAAY;AAAA,cACrC,oBAAoB,OAAO,YAAY;AAAA,gBACrC,oBAAoB,OAAO;AAAA,kBACzB,KAAK,KAAK;AAAA,kBACV,KAAK,KAAK;AAAA,gBACZ,GAAG,MAAM,GAAG,UAAU;AAAA,cACxB,CAAC;AAAA,cACD,oBAAoB,OAAO;AAAA,gBACzB,IAAI,OAAO,KAAK;AAAA,gBAChB,OAAO;AAAA,cACT,GAAG;AAAA,gBACD,oBAAoB,OAAO,YAAY,iBAAiB,KAAK,KAAK,GAAG,CAAC;AAAA,gBACtE,oBAAoB,OAAO,YAAY,iBAAiB,iBAAiB,KAAK,QAAQ,GAAG,GAAG,CAAC;AAAA,cAC/F,GAAG,GAAG,UAAU;AAAA,YAClB,CAAC;AAAA,UACH,CAAC;AAAA,QACH,CAAC,GAAG,EAAE;AAAA,MACR,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1702085566218,
+      "end": 1702085566218,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702085566219,
+      "end": 1702085566219,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1702085566219,
+      "end": 1702085566220,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702085566220,
+      "end": 1702085566220,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085566220,
+      "end": 1702085566221,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702085566221,
+      "end": 1702085566221,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702085566221,
+      "end": 1702085566221,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702085566222,
+      "end": 1702085566224,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085566224,
+      "end": 1702085566224,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702085566224,
+      "end": 1702085566224,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702085566225,
+      "end": 1702085566225,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702085566226,
+      "end": 1702085566226,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702085566226,
+      "end": 1702085566226,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702085566226,
+      "end": 1702085566226,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702085566226,
+      "end": 1702085566226,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702085566227,
+      "end": 1702085566227,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702085566227,
+      "end": 1702085566228,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702085566240,
+      "end": 1702085566240,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702085566241,
+      "end": 1702085566243,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702085566243,
+      "end": 1702085566267,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702085566267,
+      "end": 1702085566267,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1702085566268,
+      "end": 1702085566345,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702085566346,
+      "end": 1702085566348,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702085566349,
+      "end": 1702085566350,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702085566350,
+      "end": 1702085566351,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702085566351,
+      "end": 1702085566352,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702085566352,
+      "end": 1702085566352,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702085566352,
+      "end": 1702085566352,
+      "order": "normal"
+    }
+  ]
+}

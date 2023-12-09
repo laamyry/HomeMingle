@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/home/laamyry/alx/HomeMingle/pages/services.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script lang=\"ts\" setup></script>\n\n<template bg-black flex flex-col min-h-screen>\n  <div id=\"car_container\" class=\"flex justify-center flex-row items-center mx-auto max-w-md m-10 gap-5\">\n    <span v-for=\"item in category\" :key=\"item.id\">\n      <div id=\"card\" class=\"flex flex-col w-64 justify-center\">\n        <div id=\"image\" class=\"shadow-lg\">\n          <img :src=\"item.image\" :alt=\"item.title\" />\n        </div>\n        <div :id=\"'id' + item.id\" class=\"w-64 h-96 self-center py-2 px-3 bg-[#EAEAEA] rounded-b-md shadow-md p-1\">\n          <div id=\"titl\" class=\"font-us-semi-bold text-md uppercase text-darky-700\">\n            {{ item.title }}\n          </div>\n          <div id=\"price\" class=\"font-us-regular text-darky-700\">\n            {{ 'Starting at ' + item.price + '€' }}\n          </div>\n        </div>\n      </div>\n    </span>\n  </div>\n</template>\n\n<script lang=\"ts\" setup>\nconst category = [\n  {\n    id: 1,\n    title: 'Home Cleaning',\n    image: '/images/cleaning.jpg',\n    description: 80,\n  },\n  {\n    id: 2,\n    title: 'Security Installation',\n    image: '/images/sec.jpg',\n    price: 150,\n  },\n  {\n    id: 3,\n    title: 'Electrical Maintenance',\n    image: '/images/electric.jpg',\n    price: 90,\n  },\n  {\n    id: 4,\n    title: 'Furniture Assembly',\n    image: '/images/furniture.jpeg',\n    price: 60,\n  },\n  {\n    id: 5,\n    title: 'Interior Painting',\n    image: '/images/paint.jpg',\n    price: 120,\n  },\n]\n\nconst review = [\n  {\n    id: 1,\n    username: 'Sarah J',\n    review: 'Home Mingle Hub made finding a skilled plumber so easy! The platform is user-friendly, and I quickly connected with a reliable professional. The service was prompt, and the plumber did an excellent job. Highly recommend!',\n  },\n  {\n    id: 2,\n    username: 'Mike R',\n    review: 'Used Home Mingle Hub for electrical repairs, and it was a great experience. The professional was knowledgeable and fixed the issue efficiently. The only suggestion would be to add more professionals in my area.',\n  },\n  {\n    id: 3,\n    username: 'Alex M',\n    review: \"Home Mingle Hub is a game-changer for home services. I found an amazing landscaper for my garden. The process was smooth, but I wish there were more details about each professional's expertise on their profiles.\",\n  },\n  {\n    id: 4,\n    username: 'Med L',\n    review: \"Aleksandr was fantastic! He came with all the equipment to do the job, even the hardware I didn't know I would need. He hung a heavy chandelier perfectly and fixed a cabinet to our wall. 100% would hire\",\n  },\n]\n</script>\n\n<style scoped></style>\n",
+      "start": 1702085561089,
+      "end": 1702085563529,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702085563529,
+      "end": 1702085563529,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702085563529,
+      "end": 1702085563529,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702085563529,
+      "end": 1702085563529,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702085563529,
+      "end": 1702085563529,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702085563529,
+      "end": 1702085563529,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702085563529,
+      "end": 1702085563529,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702085563529,
+      "end": 1702085563529,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/home/laamyry/alx/HomeMingle/pages/services.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/home/laamyry/alx/HomeMingle/pages/services.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n",
+      "start": 1702085563530,
+      "end": 1702085563894,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702085563895,
+      "end": 1702085563895,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085563895,
+      "end": 1702085563895,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702085563895,
+      "end": 1702085563895,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702085563896,
+      "end": 1702085563896,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702085563896,
+      "end": 1702085563897,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085563898,
+      "end": 1702085563898,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702085563898,
+      "end": 1702085563898,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702085563898,
+      "end": 1702085563898,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702085563898,
+      "end": 1702085563898,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702085563898,
+      "end": 1702085563898,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702085563898,
+      "end": 1702085563898,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702085563899,
+      "end": 1702085563899,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702085563899,
+      "end": 1702085563899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702085563899,
+      "end": 1702085563899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702085563899,
+      "end": 1702085563899,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702085563899,
+      "end": 1702085563899,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702085563900,
+      "end": 1702085563901,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702085563901,
+      "end": 1702085563901,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702085563901,
+      "end": 1702085563901,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702085563901,
+      "end": 1702085563901,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702085563902,
+      "end": 1702085563902,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702085563902,
+      "end": 1702085563903,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702085563903,
+      "end": 1702085563903,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702085563903,
+      "end": 1702085563904,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702085563906,
+      "end": 1702085563906,
+      "order": "normal"
+    }
+  ]
+}

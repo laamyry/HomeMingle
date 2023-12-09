@@ -1,0 +1,4026 @@
+{
+  "root": "/home/laamyry/alx/HomeMingle",
+  "modules": [
+    {
+      "id": "/home/laamyry/alx/HomeMingle/.nuxt/app.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165371
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 16
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165371,
+      "invokeCount": 1,
+      "sourceSize": 360,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/.nuxt/icon-collections.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 760
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        }
+      ],
+      "virtual": false,
+      "totalTime": 760,
+      "invokeCount": 1,
+      "sourceSize": 1741,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/assets/css/tailwind.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 274
+        },
+        {
+          "name": "vite:css",
+          "transform": 7920
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 8195,
+      "invokeCount": 1,
+      "sourceSize": 1003,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/layouts/default.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 866
+        },
+        {
+          "name": "vite:vue",
+          "transform": 2165
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3031,
+      "invokeCount": 1,
+      "sourceSize": 9277,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/layouts/default.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 96
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 2
+        }
+      ],
+      "virtual": true,
+      "totalTime": 98,
+      "invokeCount": 1,
+      "sourceSize": 11873,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@iconify/vue/dist/iconify.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 809
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 809,
+      "invokeCount": 1,
+      "sourceSize": 53272,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@iconify/vue/dist/offline.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 729
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 24
+        }
+      ],
+      "virtual": false,
+      "totalTime": 729,
+      "invokeCount": 1,
+      "sourceSize": 19515,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3682
+        },
+        {
+          "name": "vite:vue",
+          "transform": 22
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 9
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3713,
+      "invokeCount": 1,
+      "sourceSize": 5283,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=ccd3db62&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 154
+        },
+        {
+          "name": "vite:vue",
+          "transform": 43
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 197,
+      "invokeCount": 1,
+      "sourceSize": 3195,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3742
+        },
+        {
+          "name": "vite:vue",
+          "transform": 11
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 7
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3760,
+      "invokeCount": 1,
+      "sourceSize": 3283,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 3
+        },
+        {
+          "name": "vite:css",
+          "transform": 178
+        },
+        {
+          "name": "vite:vue",
+          "transform": 38
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 219,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3728
+        },
+        {
+          "name": "vite:vue",
+          "transform": 11
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 8
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3747,
+      "invokeCount": 1,
+      "sourceSize": 4089,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=51ccc917&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 169
+        },
+        {
+          "name": "vite:vue",
+          "transform": 18
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 187,
+      "invokeCount": 1,
+      "sourceSize": 1946,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@unhead/dom/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2636
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2636,
+      "invokeCount": 1,
+      "sourceSize": 4451,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@unhead/shared/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 4259
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 4259,
+      "invokeCount": 1,
+      "sourceSize": 20287,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@unhead/vue/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2620
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2620,
+      "invokeCount": 1,
+      "sourceSize": 3864,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3999
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3999,
+      "invokeCount": 1,
+      "sourceSize": 2633,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 4074
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 4074,
+      "invokeCount": 1,
+      "sourceSize": 1035,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/api/api.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 720
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 11
+        }
+      ],
+      "virtual": false,
+      "totalTime": 720,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/api/app.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1028
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1028,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/api/component.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 861
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 861,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/api/context.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 966
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 966,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/api/hooks.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1045
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1045,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/api/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165362
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165362,
+      "invokeCount": 1,
+      "sourceSize": 169,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/api/util.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 981
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 981,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/const.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165525
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165525,
+      "invokeCount": 1,
+      "sourceSize": 114,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/env.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165167
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 12
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165167,
+      "invokeCount": 1,
+      "sourceSize": 383,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3801
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3801,
+      "invokeCount": 1,
+      "sourceSize": 1009,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/plugin.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165246
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165246,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/proxy.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165299
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165299,
+      "invokeCount": 1,
+      "sourceSize": 3533,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/devtools-api/lib/esm/time.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165152
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165152,
+      "invokeCount": 1,
+      "sourceSize": 640,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 163952
+        },
+        {
+          "name": "vite:define",
+          "transform": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 629
+        }
+      ],
+      "virtual": false,
+      "totalTime": 163955,
+      "invokeCount": 1,
+      "sourceSize": 34266,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1435
+        },
+        {
+          "name": "vite:define",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1437,
+      "invokeCount": 1,
+      "sourceSize": 239434,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2456
+        },
+        {
+          "name": "vite:define",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 57
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2457,
+      "invokeCount": 1,
+      "sourceSize": 46899,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/@vue/shared/dist/shared.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1349
+        },
+        {
+          "name": "vite:define",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 67
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 24
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1350,
+      "invokeCount": 1,
+      "sourceSize": 18480,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/cookie-es/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2014
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 87
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2014,
+      "invokeCount": 1,
+      "sourceSize": 3644,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/defu/dist/defu.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1733
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 86
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1733,
+      "invokeCount": 1,
+      "sourceSize": 1917,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/destr/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2666
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 86
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2666,
+      "invokeCount": 1,
+      "sourceSize": 2207,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/devalue/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 4206
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 4206,
+      "invokeCount": 1,
+      "sourceSize": 141,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/devalue/src/constants.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 966
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 966,
+      "invokeCount": 1,
+      "sourceSize": 183,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/devalue/src/parse.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165200
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165200,
+      "invokeCount": 1,
+      "sourceSize": 3053,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/devalue/src/stringify.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165088
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165088,
+      "invokeCount": 1,
+      "sourceSize": 4304,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/devalue/src/uneval.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165379
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165379,
+      "invokeCount": 1,
+      "sourceSize": 6924,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/devalue/src/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 770
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 770,
+      "invokeCount": 1,
+      "sourceSize": 1944,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/h3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1580
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1580,
+      "invokeCount": 1,
+      "sourceSize": 60155,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/hookable/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1265
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1265,
+      "invokeCount": 1,
+      "sourceSize": 8302,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/iron-webcrypto/dist/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1647
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1647,
+      "invokeCount": 1,
+      "sourceSize": 11782,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/klona/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 164928
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 13
+        }
+      ],
+      "virtual": false,
+      "totalTime": 164928,
+      "invokeCount": 1,
+      "sourceSize": 1531,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt-icon/dist/runtime/Icon.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3772
+        },
+        {
+          "name": "vite:vue",
+          "transform": 653
+        }
+      ],
+      "virtual": false,
+      "totalTime": 4425,
+      "invokeCount": 1,
+      "sourceSize": 3617,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt-icon/dist/runtime/Icon.vue?nuxt_component=async&nuxt_component_name=Icon",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 168
+        },
+        {
+          "name": "vite:vue",
+          "transform": 3991
+        },
+        {
+          "name": "nuxt:components:imports",
+          "transform": 1
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 4160,
+      "invokeCount": 1,
+      "sourceSize": 3617,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt-icon/dist/runtime/Icon.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 163642
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 75
+        }
+      ],
+      "virtual": true,
+      "totalTime": 163718,
+      "invokeCount": 1,
+      "sourceSize": 5023,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt-icon/dist/runtime/Icon.vue?vue&type=style&index=0&scoped=bd832875&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 363
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 364,
+      "invokeCount": 1,
+      "sourceSize": 62,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3751
+        },
+        {
+          "name": "vite:vue",
+          "transform": 656
+        }
+      ],
+      "virtual": false,
+      "totalTime": 4407,
+      "invokeCount": 1,
+      "sourceSize": 1922,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt-icon/dist/runtime/IconCSS.vue?nuxt_component=async&nuxt_component_name=IconCSS",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 426
+        },
+        {
+          "name": "vite:vue",
+          "transform": 3732
+        },
+        {
+          "name": "nuxt:components:imports",
+          "transform": 0
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 4158,
+      "invokeCount": 1,
+      "sourceSize": 1922,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt-icon/dist/runtime/IconCSS.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 163696
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 70
+        }
+      ],
+      "virtual": true,
+      "totalTime": 163766,
+      "invokeCount": 1,
+      "sourceSize": 2070,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt-icon/dist/runtime/IconCSS.vue?vue&type=style&index=0&scoped=41e8d397&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 162145
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 162150,
+      "invokeCount": 1,
+      "sourceSize": 281,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt-icon/dist/runtime/utils/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 714
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 15
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 714,
+      "invokeCount": 1,
+      "sourceSize": 755,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/compat/idle-callback.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3504
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3504,
+      "invokeCount": 1,
+      "sourceSize": 456,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/components/injections.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1757
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1757,
+      "invokeCount": 1,
+      "sourceSize": 103,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/components/island-renderer.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1622
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1622,
+      "invokeCount": 1,
+      "sourceSize": 719,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1564
+        },
+        {
+          "name": "vite:vue",
+          "transform": 17
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1583,
+      "invokeCount": 1,
+      "sourceSize": 1688,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/components/nuxt-layout.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3348
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3349,
+      "invokeCount": 1,
+      "sourceSize": 4083,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/components/nuxt-link.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165656
+        },
+        {
+          "name": "replace",
+          "transform": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165662,
+      "invokeCount": 1,
+      "sourceSize": 10108,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1007
+        },
+        {
+          "name": "vite:vue",
+          "transform": 58
+        },
+        {
+          "name": "replace",
+          "transform": 6
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 3
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1075,
+      "invokeCount": 1,
+      "sourceSize": 2279,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/components/route-provider.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165100
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 165409
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165101,
+      "invokeCount": 1,
+      "sourceSize": 1419,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/components/test-component-wrapper.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1319
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1320,
+      "invokeCount": 1,
+      "sourceSize": 943,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/components/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3850
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 5172
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3851,
+      "invokeCount": 1,
+      "sourceSize": 4361,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/composables/chunk.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1686
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1686,
+      "invokeCount": 1,
+      "sourceSize": 889,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/composables/error.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2649
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 2581
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2650,
+      "invokeCount": 1,
+      "sourceSize": 1022,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/composables/manifest.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1686
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1686,
+      "invokeCount": 1,
+      "sourceSize": 984,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/composables/payload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2601
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2607,
+      "invokeCount": 1,
+      "sourceSize": 3787,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/composables/preload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 553
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 554,
+      "invokeCount": 1,
+      "sourceSize": 1595,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/composables/ready.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1574
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1576,
+      "invokeCount": 1,
+      "sourceSize": 412,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/composables/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2582
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 72
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 2633
+        },
+        {
+          "name": "alias",
+          "resolveId": 2340
+        },
+        {
+          "name": "alias",
+          "resolveId": 69
+        },
+        {
+          "name": "alias",
+          "resolveId": 32
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2583,
+      "invokeCount": 1,
+      "sourceSize": 5967,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/composables/state.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1073
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 13
+        },
+        {
+          "name": "alias",
+          "resolveId": 1219
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1073,
+      "invokeCount": 1,
+      "sourceSize": 1408,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/config.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3226
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 35
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 14
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 103
+        },
+        {
+          "name": "alias",
+          "resolveId": 102
+        },
+        {
+          "name": "alias",
+          "resolveId": 13
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3227,
+      "invokeCount": 1,
+      "sourceSize": 1574,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/entry.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 8
+        },
+        {
+          "name": "replace",
+          "transform": 13
+        }
+      ],
+      "virtual": false,
+      "totalTime": 21,
+      "invokeCount": 1,
+      "sourceSize": 2259,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2552
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2553,
+      "invokeCount": 1,
+      "sourceSize": 356,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/nuxt.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 456
+        },
+        {
+          "name": "replace",
+          "transform": 7
+        },
+        {
+          "name": "vite:define",
+          "transform": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 14
+        },
+        {
+          "name": "alias",
+          "resolveId": 123
+        },
+        {
+          "name": "alias",
+          "resolveId": 12
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        },
+        {
+          "name": "alias",
+          "resolveId": 8
+        },
+        {
+          "name": "alias",
+          "resolveId": 4
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        },
+        {
+          "name": "alias",
+          "resolveId": 102
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 466,
+      "invokeCount": 1,
+      "sourceSize": 6071,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1225
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1226,
+      "invokeCount": 1,
+      "sourceSize": 795,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/plugins/chunk-reload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1285
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1285,
+      "invokeCount": 1,
+      "sourceSize": 1047,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/plugins/payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1148
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1148,
+      "invokeCount": 1,
+      "sourceSize": 1103,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/app/plugins/revive-payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 797
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 9
+        }
+      ],
+      "virtual": false,
+      "totalTime": 806,
+      "invokeCount": 1,
+      "sourceSize": 1542,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 750
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 751,
+      "invokeCount": 1,
+      "sourceSize": 1315,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/pages/runtime/app.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1551
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1557,
+      "invokeCount": 1,
+      "sourceSize": 71,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/pages/runtime/page.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3775
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3776,
+      "invokeCount": 1,
+      "sourceSize": 4931,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/pages/runtime/plugins/prefetch.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1183
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1183,
+      "invokeCount": 1,
+      "sourceSize": 1268,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/pages/runtime/plugins/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 843
+        },
+        {
+          "name": "replace",
+          "transform": 3
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 14
+        }
+      ],
+      "virtual": false,
+      "totalTime": 860,
+      "invokeCount": 1,
+      "sourceSize": 7123,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/pages/runtime/router.options.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2469
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2469,
+      "invokeCount": 1,
+      "sourceSize": 1714,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/pages/runtime/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165090
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165090,
+      "invokeCount": 1,
+      "sourceSize": 789,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/nuxt/dist/pages/runtime/validate.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2508
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2513,
+      "invokeCount": 1,
+      "sourceSize": 931,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/ofetch/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1328
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1328,
+      "invokeCount": 1,
+      "sourceSize": 891,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/ofetch/dist/shared/ofetch.00501375.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1379
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1379,
+      "invokeCount": 1,
+      "sourceSize": 8818,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/pathe/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3471
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 48
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3471,
+      "invokeCount": 1,
+      "sourceSize": 272,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/pathe/dist/shared/pathe.92c04245.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165495
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165495,
+      "invokeCount": 1,
+      "sourceSize": 6215,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/radix3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1766
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 87
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1766,
+      "invokeCount": 1,
+      "sourceSize": 7089,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/ufo/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 194
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 88
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 48
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 194,
+      "invokeCount": 1,
+      "sourceSize": 16557,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/uncrypto/dist/crypto.web.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1689
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 86
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1689,
+      "invokeCount": 1,
+      "sourceSize": 348,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unctx/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1196
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1196,
+      "invokeCount": 1,
+      "sourceSize": 3878,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unenv/runtime/_internal/utils.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1080
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 55
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1080,
+      "invokeCount": 1,
+      "sourceSize": 895,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unenv/runtime/node/events/_events.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1222
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1222,
+      "invokeCount": 1,
+      "sourceSize": 6481,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unenv/runtime/node/events/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165166
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 26
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165166,
+      "invokeCount": 1,
+      "sourceSize": 218,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unenv/runtime/node/http/_request.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1642
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1642,
+      "invokeCount": 1,
+      "sourceSize": 1129,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unenv/runtime/node/http/_response.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1415
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1415,
+      "invokeCount": 1,
+      "sourceSize": 2193,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unenv/runtime/node/net/socket.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3206
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3206,
+      "invokeCount": 1,
+      "sourceSize": 1425,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unenv/runtime/node/stream/duplex.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 165159
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 165159,
+      "invokeCount": 1,
+      "sourceSize": 678,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unenv/runtime/node/stream/readable.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3883
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 7
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3883,
+      "invokeCount": 1,
+      "sourceSize": 2697,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unenv/runtime/node/stream/writable.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3217
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3217,
+      "invokeCount": 1,
+      "sourceSize": 2357,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/unhead/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3919
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3919,
+      "invokeCount": 1,
+      "sourceSize": 20726,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/vue-router/dist/vue-router.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2630
+        },
+        {
+          "name": "vite:define",
+          "transform": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 48
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2634,
+      "invokeCount": 1,
+      "sourceSize": 147386,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1022
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 94
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 48
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 13
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 67
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 15
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 24
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 7
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1022,
+      "invokeCount": 1,
+      "sourceSize": 517,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/about-us.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1845
+        },
+        {
+          "name": "vite:vue",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1847,
+      "invokeCount": 1,
+      "sourceSize": 113,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/about-us.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1780
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1787,
+      "invokeCount": 1,
+      "sourceSize": 113,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/account.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1818
+        },
+        {
+          "name": "vite:vue",
+          "transform": 7
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1825,
+      "invokeCount": 1,
+      "sourceSize": 5869,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/account.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1717
+        },
+        {
+          "name": "vite:vue",
+          "transform": 20
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1741,
+      "invokeCount": 1,
+      "sourceSize": 5869,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/index.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2497
+        },
+        {
+          "name": "vite:vue",
+          "transform": 366
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2863,
+      "invokeCount": 1,
+      "sourceSize": 7205,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/index.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1738
+        },
+        {
+          "name": "vite:vue",
+          "transform": 957
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2695,
+      "invokeCount": 1,
+      "sourceSize": 7205,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/index.vue?macro=true&vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 1777
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 61
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1838,
+      "invokeCount": 1,
+      "sourceSize": 10264,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/index.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 1845
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 2
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1847,
+      "invokeCount": 1,
+      "sourceSize": 10264,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/index.vue?vue&type=style&index=0&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 114
+        },
+        {
+          "name": "vite:vue",
+          "transform": 6
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 120,
+      "invokeCount": 1,
+      "sourceSize": 44,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/services.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2440
+        },
+        {
+          "name": "vite:vue",
+          "transform": 364
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2804,
+      "invokeCount": 1,
+      "sourceSize": 2560,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/services.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1852
+        },
+        {
+          "name": "vite:vue",
+          "transform": 793
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2646,
+      "invokeCount": 1,
+      "sourceSize": 2560,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/services.vue?macro=true&vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 1780
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 77
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1857,
+      "invokeCount": 1,
+      "sourceSize": 3484,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/pages/services.vue?vue&type=script&setup=true&lang.ts",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:esbuild",
+          "transform": 1681
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1681,
+      "invokeCount": 1,
+      "sourceSize": 3484,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/public/images/Home-mangle-logo-white.png",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:asset",
+          "transform": 165596
+        },
+        {
+          "name": "nuxt:runtime-paths-dep",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 165596,
+      "invokeCount": 1,
+      "sourceSize": 41,
+      "distSize": 0
+    },
+    {
+      "id": "/home/laamyry/alx/HomeMingle/public/images/home-mangle-icon.png",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:asset",
+          "transform": 1601
+        },
+        {
+          "name": "nuxt:runtime-paths-dep",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1601,
+      "invokeCount": 1,
+      "sourceSize": 41,
+      "distSize": 0
+    },
+    {
+      "id": "/images/Home-mangle-logo.png",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:asset",
+          "transform": 0
+        },
+        {
+          "name": "nuxt:runtime-paths-dep",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 48,
+      "distSize": 0
+    },
+    {
+      "id": "/images/drill.png",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:asset",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:runtime-paths-dep",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 2,
+      "invokeCount": 1,
+      "sourceSize": 48,
+      "distSize": 0
+    },
+    {
+      "id": "/images/hammer.png",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:asset",
+          "transform": 11
+        },
+        {
+          "name": "nuxt:runtime-paths-dep",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 12,
+      "invokeCount": 1,
+      "sourceSize": 48,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/app-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 14
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 100,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/components.islands.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 4
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/components.plugin.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "nuxt:components:imports",
+          "transform": 24
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 24,
+      "invokeCount": 1,
+      "sourceSize": 448,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/css.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 117
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 120
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 62,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/error-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 14
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 113,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/fetch.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 114
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 168,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/layouts.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 120,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/middleware.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 338,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/nitro.client.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 25
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 70,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/nuxt.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 113
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        },
+        {
+          "name": "alias",
+          "resolveId": 5
+        },
+        {
+          "name": "alias",
+          "resolveId": 6
+        },
+        {
+          "name": "alias",
+          "resolveId": 4
+        },
+        {
+          "name": "alias",
+          "resolveId": 5
+        },
+        {
+          "name": "alias",
+          "resolveId": 51
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "alias",
+          "resolveId": 11
+        },
+        {
+          "name": "alias",
+          "resolveId": 11
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 907,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/pages.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 37,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/paths.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "replace",
+          "transform": 9
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 115
+        },
+        {
+          "name": "alias",
+          "resolveId": 25
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        },
+        {
+          "name": "alias",
+          "resolveId": 5
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 4
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        }
+      ],
+      "virtual": true,
+      "totalTime": 9,
+      "invokeCount": 1,
+      "sourceSize": 622,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/plugins/client.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 114
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 1273,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/root-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 113
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 107,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/router.options.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 252,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/routes.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 5
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        }
+      ],
+      "virtual": true,
+      "totalTime": 5,
+      "invokeCount": 1,
+      "sourceSize": 1920,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/test-component-wrapper.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 13
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 116,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/unhead-plugins.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 14
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/home/laamyry/alx/HomeMingle/.nuxt/vue-router-stub.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 11
+        },
+        {
+          "name": "alias",
+          "resolveId": 11
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 27,
+      "distSize": 0
+    }
+  ],
+  "ssrModules": []
+}

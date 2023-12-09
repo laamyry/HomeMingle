@@ -9,7 +9,7 @@ import type { NuxtLink } from '#build/components'
         <div class="pr-16 sm:text-center sm:px-16">
           <p class="font-medium text-lighty-100">
             <span class="md:hidden"> We announced a new product! </span>
-            <span class="hidden md:inline"> Big news! We're excited to announce a brand new product. </span>
+            <span class="hidden md:inline">Coming to Your Doorstep in the Blink of an Eye!</span>
             <span class="block sm:ml-2 sm:inline-block">
               <a href="#" class="text-lighty-100 font-bold underline"> Learn more <span aria-hidden="true">&rarr;</span></a>
             </span>

@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/home/laamyry/alx/HomeMingle/pages/account.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script lang=\"ts\" setup></script>\n\n<template>\n  <div class=\"min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8\">\n    <div class=\"sm:mx-auto sm:w-full sm:max-w-md\">\n      <img class=\"mx-auto h-12 w-auto\" src=\"/public/images/home-mangle-icon.png\" alt=\"Workflow\" />\n      <h2 class=\"mt-6 text-center text-3xl font-extrabold text-gray-900\">Sign in to your account</h2>\n    </div>\n\n    <div class=\"mt-8 sm:mx-auto sm:w-full sm:max-w-md\">\n      <div class=\"bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10\">\n        <form class=\"space-y-6\" action=\"#\" method=\"POST\">\n          <div>\n            <label for=\"email\" class=\"block text-sm font-medium text-gray-700\"> Email address </label>\n            <div class=\"mt-1\">\n              <input id=\"email\" name=\"email\" type=\"email\" autocomplete=\"email\" required class=\"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-greeny-300 focus:border-indigo-500 sm:text-sm\" />\n            </div>\n          </div>\n\n          <div>\n            <label for=\"password\" class=\"block text-sm font-medium text-gray-700\"> Password </label>\n            <div class=\"mt-1\">\n              <input id=\"password\" name=\"password\" type=\"password\" autocomplete=\"current-password\" required class=\"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-greeny-300 focus:border-indigo-500 sm:text-sm\" />\n            </div>\n          </div>\n\n          <div class=\"flex items-center justify-between\">\n            <div class=\"flex items-center\">\n              <input id=\"remember-me\" name=\"remember-me\" type=\"checkbox\" class=\"h-4 w-4 text-darky-700 focus:ring-greeny-300 border-gray-300 rounded\" />\n              <label for=\"remember-me\" class=\"ml-2 block text-sm text-gray-900\"> Remember me </label>\n            </div>\n\n            <div class=\"text-sm\">\n              <a href=\"#\" class=\"font-medium text-darky-700 hover:text-indigo-500\"> Forgot your password? </a>\n            </div>\n          </div>\n\n          <div>\n            <button type=\"submit\" class=\"w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-greeny-300 hover:bg-[#038955] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-greeny-300\">Sign in</button>\n          </div>\n        </form>\n\n        <div class=\"mt-6\">\n          <div class=\"relative\">\n            <div class=\"absolute inset-0 flex items-center\">\n              <div class=\"w-full border-t border-gray-300\"></div>\n            </div>\n            <div class=\"relative flex justify-center text-sm\">\n              <span class=\"px-2 bg-white text-gray-500\"> Or continue with </span>\n            </div>\n          </div>\n\n          <div class=\"mt-6 grid grid-cols-3 gap-3\">\n            <div>\n              <a href=\"#\" class=\"w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50\">\n                <span class=\"sr-only\">Sign in with Facebook</span>\n                <svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 20 20\" aria-hidden=\"true\">\n                  <path fill-rule=\"evenodd\" d=\"M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z\" clip-rule=\"evenodd\" />\n                </svg>\n              </a>\n            </div>\n\n            <div>\n              <a href=\"#\" class=\"w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50\">\n                <span class=\"sr-only\">Sign in with Twitter</span>\n                <svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 20 20\" aria-hidden=\"true\">\n                  <path d=\"M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84\" />\n                </svg>\n              </a>\n            </div>\n\n            <div>\n              <a href=\"#\" class=\"w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50\">\n                <span class=\"sr-only\">Sign in with GitHub</span>\n                <svg class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 20 20\" aria-hidden=\"true\">\n                  <path\n                    fill-rule=\"evenodd\"\n                    d=\"M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z\"\n                    clip-rule=\"evenodd\" />\n                </svg>\n              </a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</template>\n\n<style scoped></style>\n",
+      "start": 1702085560961,
+      "end": 1702085562779,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702085562779,
+      "end": 1702085562779,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702085562779,
+      "end": 1702085562779,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702085562779,
+      "end": 1702085562779,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702085562779,
+      "end": 1702085562779,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702085562779,
+      "end": 1702085562779,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702085562779,
+      "end": 1702085562779,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702085562780,
+      "end": 1702085562780,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/public/images/home-mangle-icon.png'\n\n\nconst _hoisted_1 = { class: \"min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sm:mx-auto sm:w-full sm:max-w-md\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    class: \"mx-auto h-12 w-auto\",\n    src: _imports_0,\n    alt: \"Workflow\"\n  }),\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"mt-6 text-center text-3xl font-extrabold text-gray-900\" }, \"Sign in to your account\")\n], -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"mt-8 sm:mx-auto sm:w-full sm:max-w-md\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10\" }, [\n    /*#__PURE__*/_createElementVNode(\"form\", {\n      class: \"space-y-6\",\n      action: \"#\",\n      method: \"POST\"\n    }, [\n      /*#__PURE__*/_createElementVNode(\"div\", null, [\n        /*#__PURE__*/_createElementVNode(\"label\", {\n          for: \"email\",\n          class: \"block text-sm font-medium text-gray-700\"\n        }, \" Email address \"),\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"mt-1\" }, [\n          /*#__PURE__*/_createElementVNode(\"input\", {\n            id: \"email\",\n            name: \"email\",\n            type: \"email\",\n            autocomplete: \"email\",\n            required: \"\",\n            class: \"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-greeny-300 focus:border-indigo-500 sm:text-sm\"\n          })\n        ])\n      ]),\n      /*#__PURE__*/_createElementVNode(\"div\", null, [\n        /*#__PURE__*/_createElementVNode(\"label\", {\n          for: \"password\",\n          class: \"block text-sm font-medium text-gray-700\"\n        }, \" Password \"),\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"mt-1\" }, [\n          /*#__PURE__*/_createElementVNode(\"input\", {\n            id: \"password\",\n            name: \"password\",\n            type: \"password\",\n            autocomplete: \"current-password\",\n            required: \"\",\n            class: \"appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-greeny-300 focus:border-indigo-500 sm:text-sm\"\n          })\n        ])\n      ]),\n      /*#__PURE__*/_createElementVNode(\"div\", { class: \"flex items-center justify-between\" }, [\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"flex items-center\" }, [\n          /*#__PURE__*/_createElementVNode(\"input\", {\n            id: \"remember-me\",\n            name: \"remember-me\",\n            type: \"checkbox\",\n            class: \"h-4 w-4 text-darky-700 focus:ring-greeny-300 border-gray-300 rounded\"\n          }),\n          /*#__PURE__*/_createElementVNode(\"label\", {\n            for: \"remember-me\",\n            class: \"ml-2 block text-sm text-gray-900\"\n          }, \" Remember me \")\n        ]),\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"text-sm\" }, [\n          /*#__PURE__*/_createElementVNode(\"a\", {\n            href: \"#\",\n            class: \"font-medium text-darky-700 hover:text-indigo-500\"\n          }, \" Forgot your password? \")\n        ])\n      ]),\n      /*#__PURE__*/_createElementVNode(\"div\", null, [\n        /*#__PURE__*/_createElementVNode(\"button\", {\n          type: \"submit\",\n          class: \"w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-greeny-300 hover:bg-[#038955] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-greeny-300\"\n        }, \"Sign in\")\n      ])\n    ]),\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"mt-6\" }, [\n      /*#__PURE__*/_createElementVNode(\"div\", { class: \"relative\" }, [\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"absolute inset-0 flex items-center\" }, [\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"w-full border-t border-gray-300\" })\n        ]),\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"relative flex justify-center text-sm\" }, [\n          /*#__PURE__*/_createElementVNode(\"span\", { class: \"px-2 bg-white text-gray-500\" }, \" Or continue with \")\n        ])\n      ]),\n      /*#__PURE__*/_createElementVNode(\"div\", { class: \"mt-6 grid grid-cols-3 gap-3\" }, [\n        /*#__PURE__*/_createElementVNode(\"div\", null, [\n          /*#__PURE__*/_createElementVNode(\"a\", {\n            href: \"#\",\n            class: \"w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50\"\n          }, [\n            /*#__PURE__*/_createElementVNode(\"span\", { class: \"sr-only\" }, \"Sign in with Facebook\"),\n            /*#__PURE__*/_createElementVNode(\"svg\", {\n              class: \"w-5 h-5\",\n              fill: \"currentColor\",\n              viewBox: \"0 0 20 20\",\n              \"aria-hidden\": \"true\"\n            }, [\n              /*#__PURE__*/_createElementVNode(\"path\", {\n                \"fill-rule\": \"evenodd\",\n                d: \"M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z\",\n                \"clip-rule\": \"evenodd\"\n              })\n            ])\n          ])\n        ]),\n        /*#__PURE__*/_createElementVNode(\"div\", null, [\n          /*#__PURE__*/_createElementVNode(\"a\", {\n            href: \"#\",\n            class: \"w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50\"\n          }, [\n            /*#__PURE__*/_createElementVNode(\"span\", { class: \"sr-only\" }, \"Sign in with Twitter\"),\n            /*#__PURE__*/_createElementVNode(\"svg\", {\n              class: \"w-5 h-5\",\n              fill: \"currentColor\",\n              viewBox: \"0 0 20 20\",\n              \"aria-hidden\": \"true\"\n            }, [\n              /*#__PURE__*/_createElementVNode(\"path\", { d: \"M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84\" })\n            ])\n          ])\n        ]),\n        /*#__PURE__*/_createElementVNode(\"div\", null, [\n          /*#__PURE__*/_createElementVNode(\"a\", {\n            href: \"#\",\n            class: \"w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50\"\n          }, [\n            /*#__PURE__*/_createElementVNode(\"span\", { class: \"sr-only\" }, \"Sign in with GitHub\"),\n            /*#__PURE__*/_createElementVNode(\"svg\", {\n              class: \"w-5 h-5\",\n              fill: \"currentColor\",\n              viewBox: \"0 0 20 20\",\n              \"aria-hidden\": \"true\"\n            }, [\n              /*#__PURE__*/_createElementVNode(\"path\", {\n                \"fill-rule\": \"evenodd\",\n                d: \"M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z\",\n                \"clip-rule\": \"evenodd\"\n              })\n            ])\n          ])\n        ])\n      ])\n    ])\n  ])\n], -1)\nconst _hoisted_4 = [\n  _hoisted_2,\n  _hoisted_3\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, _hoisted_4))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1702085562780,
+      "end": 1702085562787,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702085562787,
+      "end": 1702085562787,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085562787,
+      "end": 1702085562788,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702085562788,
+      "end": 1702085562788,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702085562788,
+      "end": 1702085562788,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702085562788,
+      "end": 1702085562788,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085562788,
+      "end": 1702085562788,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702085562789,
+      "end": 1702085562789,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702085562789,
+      "end": 1702085562789,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702085562789,
+      "end": 1702085562789,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702085562789,
+      "end": 1702085562789,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702085562789,
+      "end": 1702085562789,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702085562789,
+      "end": 1702085562789,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702085562789,
+      "end": 1702085562789,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702085562789,
+      "end": 1702085562789,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702085562789,
+      "end": 1702085562789,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702085562790,
+      "end": 1702085562790,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702085562790,
+      "end": 1702085562803,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702085562804,
+      "end": 1702085562804,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702085562804,
+      "end": 1702085562804,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702085562804,
+      "end": 1702085562804,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702085562804,
+      "end": 1702085562804,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702085562805,
+      "end": 1702085562805,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702085562805,
+      "end": 1702085562805,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702085562805,
+      "end": 1702085562812,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702085562812,
+      "end": 1702085562812,
+      "order": "normal"
+    }
+  ]
+}

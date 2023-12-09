@@ -1,0 +1,230 @@
+{
+  "resolvedId": "/home/laamyry/alx/HomeMingle/pages/index.vue?macro=true&vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createStaticVNode as _createStaticVNode } from \"vue\"\nimport _imports_0 from '/images/hammer.png'\nimport _imports_1 from '/images/drill.png'\n\n\nconst _hoisted_1 = { class: \"selection:bg-greeny-300\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"w-[25%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-20 text-2xl text-darky-700\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Where Skills Meet Spaces, Crafting Homes to Perfection\")\n], -1)\nconst _hoisted_3 = {\n  id: \"container\",\n  class: \"flex items-center\"\n}\nconst _hoisted_4 = {\n  id: \"search\",\n  class: \"flex justify-between items-center float-left w-[80%] mx-auto\"\n}\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  class: \"w-52\",\n  alt: \"hammer\"\n}, null, -1)\nconst _hoisted_6 = { class: \"p-2 border border-[#303030] rounded-full relative\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"input\", {\n  type: \"search\",\n  placeholder: \"Services near me\",\n  class: \"px-3 bg-transparent border-transparent outline-none w-[92%]\"\n}, null, -1)\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  class: \"w-52\",\n  alt: \"drill\"\n}, null, -1)\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"div\", {\n  id: \"title\",\n  class: \"text-center font-us-bold uppercase text-darky-700\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"underline decoration-4 underline-offset-4 mb-14\" }, \"Trending services\")\n], -1)\nconst _hoisted_10 = {\n  id: \"car_container\",\n  class: \"flex justify-center flex-row items-center mx-auto max-w-md gap-5\"\n}\nconst _hoisted_11 = {\n  id: \"card\",\n  class: \"flex flex-col w-64 text-center justify-center\"\n}\nconst _hoisted_12 = {\n  id: \"image\",\n  class: \"shadow-lg\"\n}\nconst _hoisted_13 = [\"src\", \"alt\"]\nconst _hoisted_14 = [\"id\"]\nconst _hoisted_15 = {\n  id: \"titl\",\n  class: \"font-us-semi-bold text-md uppercase text-darky-700\"\n}\nconst _hoisted_16 = {\n  id: \"price\",\n  class: \"font-us-regular text-darky-700\"\n}\nconst _hoisted_17 = /*#__PURE__*/_createElementVNode(\"div\", {\n  id: \"title\",\n  class: \"text-center font-us-bold uppercase text-darky-700\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"underline decoration-4 underline-offset-4 mt-16\" }, \"customers talking\")\n], -1)\nconst _hoisted_18 = { class: \"w-full flex items-center justify-center mx-auto mt-2\" }\nconst _hoisted_19 = { class: \"flex justify-center flex-row mx-auto gap-16 mt-9 self-center\" }\nconst _hoisted_20 = { class: \"flex flex-row items-center\" }\nconst _hoisted_21 = { class: \"flex items-center\" }\nconst _hoisted_22 = { class: \"pe-3 font-us-semi-bold text-darky-700 text-2xl\" }\nconst _hoisted_23 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"flex items-center text-greeny-300\\\"><svg class=\\\"w-5 h-5 me-1\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg><svg class=\\\"w-5 h-5 me-1\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg><svg class=\\\"w-5 h-5 me-1\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg><svg class=\\\"w-5 h-5 me-1\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg><svg class=\\\"w-5 h-5\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg></div>\", 1)\nconst _hoisted_24 = { class: \"w-72 text-justify\" }\nconst _hoisted_25 = { class: \"text-1xl font-us-regular text-darky-700\" }\nconst _hoisted_26 = /*#__PURE__*/_createElementVNode(\"figcaption\", { class: \"flex items-center mt-6 space-x-3 rtl:space-x-reverse\" }, null, -1)\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'index',\n  setup(__props) {\n\nconst services = [\n  {\n    id: 1,\n    title: 'Home Cleaning',\n    image: '/images/cleaning.jpg',\n    price: 80,\n  },\n  {\n    id: 2,\n    title: 'Security Installation',\n    image: '/images/sec.jpg',\n    price: 150,\n  },\n  {\n    id: 3,\n    title: 'Electrical Maintenance',\n    image: '/images/electric.jpg',\n    price: 90,\n  },\n  {\n    id: 4,\n    title: 'Furniture Assembly',\n    image: '/images/furniture.jpeg',\n    price: 60,\n  },\n  {\n    id: 5,\n    title: 'Interior Painting',\n    image: '/images/paint.jpg',\n    price: 120,\n  },\n]\n\nconst review = [\n  {\n    id: 1,\n    username: 'Sarah J',\n    review: 'Home Mingle Hub made finding a skilled plumber so easy! The platform is user-friendly, and I quickly connected with a reliable professional. The service was prompt, and the plumber did an excellent job. Highly recommend!',\n  },\n  {\n    id: 2,\n    username: 'Mike R',\n    review: 'Used Home Mingle Hub for electrical repairs, and it was a great experience. The professional was knowledgeable and fixed the issue efficiently. The only suggestion would be to add more professionals in my area.',\n  },\n  {\n    id: 3,\n    username: 'Alex M',\n    review: \"Home Mingle Hub is a game-changer for home services. I found an amazing landscaper for my garden. The process was smooth, but I wish there were more details about each professional's expertise on their profiles.\",\n  },\n  {\n    id: 4,\n    username: 'Med L',\n    review: \"Aleksandr was fantastic! He came with all the equipment to do the job, even the hardware I didn't know I would need. He hung a heavy chandelier perfectly and fixed a cabinet to our wall. 100% would hire\",\n  },\n]\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_dvi = _resolveComponent(\"dvi\")!\n  const _component_Icon = _resolveComponent(\"Icon\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createVNode(_component_dvi, { id: \"image1\" }, {\n          default: _withCtx(() => [\n            _hoisted_5\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_dvi, {\n          id: \"search\",\n          class: \"max-w-md mx-auto w-[40%]\"\n        }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _hoisted_7,\n              _createVNode(_component_Icon, {\n                name: \"fa6-solid:magnifying-glass\",\n                class: \"text-greeny-300\"\n              })\n            ])\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_dvi, { id: \"image2\" }, {\n          default: _withCtx(() => [\n            _hoisted_8\n          ]),\n          _: 1\n        })\n      ])\n    ]),\n    _hoisted_9,\n    _createElementVNode(\"div\", _hoisted_10, [\n      (_openBlock(), _createElementBlock(_Fragment, null, _renderList(services, (item) => {\n        return _createElementVNode(\"span\", {\n          key: item.id\n        }, [\n          _createElementVNode(\"div\", _hoisted_11, [\n            _createElementVNode(\"div\", _hoisted_12, [\n              _createElementVNode(\"img\", {\n                src: item.image,\n                alt: item.title\n              }, null, 8, _hoisted_13)\n            ]),\n            _createElementVNode(\"div\", {\n              id: 'id' + item.id,\n              class: \"w-60 self-center bg-[#EAEAEA] rounded-b-md shadow-md p-1\"\n            }, [\n              _createElementVNode(\"div\", _hoisted_15, _toDisplayString(item.title), 1),\n              _createElementVNode(\"div\", _hoisted_16, _toDisplayString('Starting at ' + item.price + '€'), 1)\n            ], 8, _hoisted_14)\n          ])\n        ])\n      }), 64))\n    ]),\n    _hoisted_17,\n    _createElementVNode(\"div\", _hoisted_18, [\n      _createElementVNode(\"figure\", _hoisted_19, [\n        (_openBlock(), _createElementBlock(_Fragment, null, _renderList(review, (item) => {\n          return _createElementVNode(\"span\", {\n            key: item.id\n          }, [\n            _createElementVNode(\"div\", _hoisted_20, [\n              _createElementVNode(\"div\", _hoisted_21, [\n                _createElementVNode(\"p\", _hoisted_22, _toDisplayString(item.username), 1)\n              ]),\n              _hoisted_23\n            ]),\n            _createElementVNode(\"blockquote\", _hoisted_24, [\n              _createElementVNode(\"p\", _hoisted_25, \"\\\"\" + _toDisplayString(item.review) + \"\\\"\", 1)\n            ]),\n            _hoisted_26\n          ])\n        }), 64))\n      ])\n    ])\n  ]))\n}\n}\n\n})",
+      "start": 1702085564439,
+      "end": 1702085564439
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702085564440,
+      "end": 1702085564440,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702085564440,
+      "end": 1702085564440,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702085564440,
+      "end": 1702085564440,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702085564441,
+      "end": 1702085564441,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createStaticVNode as _createStaticVNode } from \"vue\";\nimport _imports_0 from \"/images/hammer.png\";\nimport _imports_1 from \"/images/drill.png\";\nconst _hoisted_1 = { class: \"selection:bg-greeny-300\" };\nconst _hoisted_2 = /* @__PURE__ */ _createElementVNode(\"div\", { class: \"w-[25%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-20 text-2xl text-darky-700\" }, [\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"Where Skills Meet Spaces, Crafting Homes to Perfection\")\n], -1);\nconst _hoisted_3 = {\n  id: \"container\",\n  class: \"flex items-center\"\n};\nconst _hoisted_4 = {\n  id: \"search\",\n  class: \"flex justify-between items-center float-left w-[80%] mx-auto\"\n};\nconst _hoisted_5 = /* @__PURE__ */ _createElementVNode(\"img\", {\n  src: _imports_0,\n  class: \"w-52\",\n  alt: \"hammer\"\n}, null, -1);\nconst _hoisted_6 = { class: \"p-2 border border-[#303030] rounded-full relative\" };\nconst _hoisted_7 = /* @__PURE__ */ _createElementVNode(\"input\", {\n  type: \"search\",\n  placeholder: \"Services near me\",\n  class: \"px-3 bg-transparent border-transparent outline-none w-[92%]\"\n}, null, -1);\nconst _hoisted_8 = /* @__PURE__ */ _createElementVNode(\"img\", {\n  src: _imports_1,\n  class: \"w-52\",\n  alt: \"drill\"\n}, null, -1);\nconst _hoisted_9 = /* @__PURE__ */ _createElementVNode(\"div\", {\n  id: \"title\",\n  class: \"text-center font-us-bold uppercase text-darky-700\"\n}, [\n  /* @__PURE__ */ _createElementVNode(\"h2\", { class: \"underline decoration-4 underline-offset-4 mb-14\" }, \"Trending services\")\n], -1);\nconst _hoisted_10 = {\n  id: \"car_container\",\n  class: \"flex justify-center flex-row items-center mx-auto max-w-md gap-5\"\n};\nconst _hoisted_11 = {\n  id: \"card\",\n  class: \"flex flex-col w-64 text-center justify-center\"\n};\nconst _hoisted_12 = {\n  id: \"image\",\n  class: \"shadow-lg\"\n};\nconst _hoisted_13 = [\"src\", \"alt\"];\nconst _hoisted_14 = [\"id\"];\nconst _hoisted_15 = {\n  id: \"titl\",\n  class: \"font-us-semi-bold text-md uppercase text-darky-700\"\n};\nconst _hoisted_16 = {\n  id: \"price\",\n  class: \"font-us-regular text-darky-700\"\n};\nconst _hoisted_17 = /* @__PURE__ */ _createElementVNode(\"div\", {\n  id: \"title\",\n  class: \"text-center font-us-bold uppercase text-darky-700\"\n}, [\n  /* @__PURE__ */ _createElementVNode(\"h2\", { class: \"underline decoration-4 underline-offset-4 mt-16\" }, \"customers talking\")\n], -1);\nconst _hoisted_18 = { class: \"w-full flex items-center justify-center mx-auto mt-2\" };\nconst _hoisted_19 = { class: \"flex justify-center flex-row mx-auto gap-16 mt-9 self-center\" };\nconst _hoisted_20 = { class: \"flex flex-row items-center\" };\nconst _hoisted_21 = { class: \"flex items-center\" };\nconst _hoisted_22 = { class: \"pe-3 font-us-semi-bold text-darky-700 text-2xl\" };\nconst _hoisted_23 = /* @__PURE__ */ _createStaticVNode('<div class=\"flex items-center text-greeny-300\"><svg class=\"w-5 h-5 me-1\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\"><path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\"></path></svg><svg class=\"w-5 h-5 me-1\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\"><path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\"></path></svg><svg class=\"w-5 h-5 me-1\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\"><path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\"></path></svg><svg class=\"w-5 h-5 me-1\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\"><path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\"></path></svg><svg class=\"w-5 h-5\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 22 20\"><path d=\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\"></path></svg></div>', 1);\nconst _hoisted_24 = { class: \"w-72 text-justify\" };\nconst _hoisted_25 = { class: \"text-1xl font-us-regular text-darky-700\" };\nconst _hoisted_26 = /* @__PURE__ */ _createElementVNode(\"figcaption\", { class: \"flex items-center mt-6 space-x-3 rtl:space-x-reverse\" }, null, -1);\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"index\",\n  setup(__props) {\n    const services = [\n      {\n        id: 1,\n        title: \"Home Cleaning\",\n        image: \"/images/cleaning.jpg\",\n        price: 80\n      },\n      {\n        id: 2,\n        title: \"Security Installation\",\n        image: \"/images/sec.jpg\",\n        price: 150\n      },\n      {\n        id: 3,\n        title: \"Electrical Maintenance\",\n        image: \"/images/electric.jpg\",\n        price: 90\n      },\n      {\n        id: 4,\n        title: \"Furniture Assembly\",\n        image: \"/images/furniture.jpeg\",\n        price: 60\n      },\n      {\n        id: 5,\n        title: \"Interior Painting\",\n        image: \"/images/paint.jpg\",\n        price: 120\n      }\n    ];\n    const review = [\n      {\n        id: 1,\n        username: \"Sarah J\",\n        review: \"Home Mingle Hub made finding a skilled plumber so easy! The platform is user-friendly, and I quickly connected with a reliable professional. The service was prompt, and the plumber did an excellent job. Highly recommend!\"\n      },\n      {\n        id: 2,\n        username: \"Mike R\",\n        review: \"Used Home Mingle Hub for electrical repairs, and it was a great experience. The professional was knowledgeable and fixed the issue efficiently. The only suggestion would be to add more professionals in my area.\"\n      },\n      {\n        id: 3,\n        username: \"Alex M\",\n        review: \"Home Mingle Hub is a game-changer for home services. I found an amazing landscaper for my garden. The process was smooth, but I wish there were more details about each professional's expertise on their profiles.\"\n      },\n      {\n        id: 4,\n        username: \"Med L\",\n        review: \"Aleksandr was fantastic! He came with all the equipment to do the job, even the hardware I didn't know I would need. He hung a heavy chandelier perfectly and fixed a cabinet to our wall. 100% would hire\"\n      }\n    ];\n    return (_ctx, _cache) => {\n      const _component_dvi = _resolveComponent(\"dvi\");\n      const _component_Icon = _resolveComponent(\"Icon\");\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _hoisted_2,\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createVNode(_component_dvi, { id: \"image1\" }, {\n              default: _withCtx(() => [\n                _hoisted_5\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_dvi, {\n              id: \"search\",\n              class: \"max-w-md mx-auto w-[40%]\"\n            }, {\n              default: _withCtx(() => [\n                _createElementVNode(\"div\", _hoisted_6, [\n                  _hoisted_7,\n                  _createVNode(_component_Icon, {\n                    name: \"fa6-solid:magnifying-glass\",\n                    class: \"text-greeny-300\"\n                  })\n                ])\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_dvi, { id: \"image2\" }, {\n              default: _withCtx(() => [\n                _hoisted_8\n              ]),\n              _: 1\n            })\n          ])\n        ]),\n        _hoisted_9,\n        _createElementVNode(\"div\", _hoisted_10, [\n          (_openBlock(), _createElementBlock(_Fragment, null, _renderList(services, (item) => {\n            return _createElementVNode(\"span\", {\n              key: item.id\n            }, [\n              _createElementVNode(\"div\", _hoisted_11, [\n                _createElementVNode(\"div\", _hoisted_12, [\n                  _createElementVNode(\"img\", {\n                    src: item.image,\n                    alt: item.title\n                  }, null, 8, _hoisted_13)\n                ]),\n                _createElementVNode(\"div\", {\n                  id: \"id\" + item.id,\n                  class: \"w-60 self-center bg-[#EAEAEA] rounded-b-md shadow-md p-1\"\n                }, [\n                  _createElementVNode(\"div\", _hoisted_15, _toDisplayString(item.title), 1),\n                  _createElementVNode(\"div\", _hoisted_16, _toDisplayString(\"Starting at \" + item.price + \"€\"), 1)\n                ], 8, _hoisted_14)\n              ])\n            ]);\n          }), 64))\n        ]),\n        _hoisted_17,\n        _createElementVNode(\"div\", _hoisted_18, [\n          _createElementVNode(\"figure\", _hoisted_19, [\n            (_openBlock(), _createElementBlock(_Fragment, null, _renderList(review, (item) => {\n              return _createElementVNode(\"span\", {\n                key: item.id\n              }, [\n                _createElementVNode(\"div\", _hoisted_20, [\n                  _createElementVNode(\"div\", _hoisted_21, [\n                    _createElementVNode(\"p\", _hoisted_22, _toDisplayString(item.username), 1)\n                  ]),\n                  _hoisted_23\n                ]),\n                _createElementVNode(\"blockquote\", _hoisted_24, [\n                  _createElementVNode(\"p\", _hoisted_25, '\"' + _toDisplayString(item.review) + '\"', 1)\n                ]),\n                _hoisted_26\n              ]);\n            }), 64))\n          ])\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1702085564441,
+      "end": 1702085566218,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/laamyry/alx/HomeMingle/pages/index.vue?macro=true&vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createStaticVNode as _createStaticVNode } from \"vue\"\nimport _imports_0 from '/images/hammer.png'\nimport _imports_1 from '/images/drill.png'\n\n\nconst _hoisted_1 = { class: \"selection:bg-greeny-300\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"w-[25%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-20 text-2xl text-darky-700\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Where Skills Meet Spaces, Crafting Homes to Perfection\")\n], -1)\nconst _hoisted_3 = {\n  id: \"container\",\n  class: \"flex items-center\"\n}\nconst _hoisted_4 = {\n  id: \"search\",\n  class: \"flex justify-between items-center float-left w-[80%] mx-auto\"\n}\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  class: \"w-52\",\n  alt: \"hammer\"\n}, null, -1)\nconst _hoisted_6 = { class: \"p-2 border border-[#303030] rounded-full relative\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"input\", {\n  type: \"search\",\n  placeholder: \"Services near me\",\n  class: \"px-3 bg-transparent border-transparent outline-none w-[92%]\"\n}, null, -1)\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  class: \"w-52\",\n  alt: \"drill\"\n}, null, -1)\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"div\", {\n  id: \"title\",\n  class: \"text-center font-us-bold uppercase text-darky-700\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"underline decoration-4 underline-offset-4 mb-14\" }, \"Trending services\")\n], -1)\nconst _hoisted_10 = {\n  id: \"car_container\",\n  class: \"flex justify-center flex-row items-center mx-auto max-w-md gap-5\"\n}\nconst _hoisted_11 = {\n  id: \"card\",\n  class: \"flex flex-col w-64 text-center justify-center\"\n}\nconst _hoisted_12 = {\n  id: \"image\",\n  class: \"shadow-lg\"\n}\nconst _hoisted_13 = [\"src\", \"alt\"]\nconst _hoisted_14 = [\"id\"]\nconst _hoisted_15 = {\n  id: \"titl\",\n  class: \"font-us-semi-bold text-md uppercase text-darky-700\"\n}\nconst _hoisted_16 = {\n  id: \"price\",\n  class: \"font-us-regular text-darky-700\"\n}\nconst _hoisted_17 = /*#__PURE__*/_createElementVNode(\"div\", {\n  id: \"title\",\n  class: \"text-center font-us-bold uppercase text-darky-700\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"underline decoration-4 underline-offset-4 mt-16\" }, \"customers talking\")\n], -1)\nconst _hoisted_18 = { class: \"w-full flex items-center justify-center mx-auto mt-2\" }\nconst _hoisted_19 = { class: \"flex justify-center flex-row mx-auto gap-16 mt-9 self-center\" }\nconst _hoisted_20 = { class: \"flex flex-row items-center\" }\nconst _hoisted_21 = { class: \"flex items-center\" }\nconst _hoisted_22 = { class: \"pe-3 font-us-semi-bold text-darky-700 text-2xl\" }\nconst _hoisted_23 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"flex items-center text-greeny-300\\\"><svg class=\\\"w-5 h-5 me-1\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg><svg class=\\\"w-5 h-5 me-1\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg><svg class=\\\"w-5 h-5 me-1\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg><svg class=\\\"w-5 h-5 me-1\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg><svg class=\\\"w-5 h-5\\\" aria-hidden=\\\"true\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\" viewBox=\\\"0 0 22 20\\\"><path d=\\\"M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z\\\"></path></svg></div>\", 1)\nconst _hoisted_24 = { class: \"w-72 text-justify\" }\nconst _hoisted_25 = { class: \"text-1xl font-us-regular text-darky-700\" }\nconst _hoisted_26 = /*#__PURE__*/_createElementVNode(\"figcaption\", { class: \"flex items-center mt-6 space-x-3 rtl:space-x-reverse\" }, null, -1)\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'index',\n  setup(__props) {\n\nconst services = [\n  {\n    id: 1,\n    title: 'Home Cleaning',\n    image: '/images/cleaning.jpg',\n    price: 80,\n  },\n  {\n    id: 2,\n    title: 'Security Installation',\n    image: '/images/sec.jpg',\n    price: 150,\n  },\n  {\n    id: 3,\n    title: 'Electrical Maintenance',\n    image: '/images/electric.jpg',\n    price: 90,\n  },\n  {\n    id: 4,\n    title: 'Furniture Assembly',\n    image: '/images/furniture.jpeg',\n    price: 60,\n  },\n  {\n    id: 5,\n    title: 'Interior Painting',\n    image: '/images/paint.jpg',\n    price: 120,\n  },\n]\n\nconst review = [\n  {\n    id: 1,\n    username: 'Sarah J',\n    review: 'Home Mingle Hub made finding a skilled plumber so easy! The platform is user-friendly, and I quickly connected with a reliable professional. The service was prompt, and the plumber did an excellent job. Highly recommend!',\n  },\n  {\n    id: 2,\n    username: 'Mike R',\n    review: 'Used Home Mingle Hub for electrical repairs, and it was a great experience. The professional was knowledgeable and fixed the issue efficiently. The only suggestion would be to add more professionals in my area.',\n  },\n  {\n    id: 3,\n    username: 'Alex M',\n    review: \"Home Mingle Hub is a game-changer for home services. I found an amazing landscaper for my garden. The process was smooth, but I wish there were more details about each professional's expertise on their profiles.\",\n  },\n  {\n    id: 4,\n    username: 'Med L',\n    review: \"Aleksandr was fantastic! He came with all the equipment to do the job, even the hardware I didn't know I would need. He hung a heavy chandelier perfectly and fixed a cabinet to our wall. 100% would hire\",\n  },\n]\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_dvi = _resolveComponent(\"dvi\")!\n  const _component_Icon = _resolveComponent(\"Icon\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createVNode(_component_dvi, { id: \"image1\" }, {\n          default: _withCtx(() => [\n            _hoisted_5\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_dvi, {\n          id: \"search\",\n          class: \"max-w-md mx-auto w-[40%]\"\n        }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _hoisted_7,\n              _createVNode(_component_Icon, {\n                name: \"fa6-solid:magnifying-glass\",\n                class: \"text-greeny-300\"\n              })\n            ])\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_dvi, { id: \"image2\" }, {\n          default: _withCtx(() => [\n            _hoisted_8\n          ]),\n          _: 1\n        })\n      ])\n    ]),\n    _hoisted_9,\n    _createElementVNode(\"div\", _hoisted_10, [\n      (_openBlock(), _createElementBlock(_Fragment, null, _renderList(services, (item) => {\n        return _createElementVNode(\"span\", {\n          key: item.id\n        }, [\n          _createElementVNode(\"div\", _hoisted_11, [\n            _createElementVNode(\"div\", _hoisted_12, [\n              _createElementVNode(\"img\", {\n                src: item.image,\n                alt: item.title\n              }, null, 8, _hoisted_13)\n            ]),\n            _createElementVNode(\"div\", {\n              id: 'id' + item.id,\n              class: \"w-60 self-center bg-[#EAEAEA] rounded-b-md shadow-md p-1\"\n            }, [\n              _createElementVNode(\"div\", _hoisted_15, _toDisplayString(item.title), 1),\n              _createElementVNode(\"div\", _hoisted_16, _toDisplayString('Starting at ' + item.price + '€'), 1)\n            ], 8, _hoisted_14)\n          ])\n        ])\n      }), 64))\n    ]),\n    _hoisted_17,\n    _createElementVNode(\"div\", _hoisted_18, [\n      _createElementVNode(\"figure\", _hoisted_19, [\n        (_openBlock(), _createElementBlock(_Fragment, null, _renderList(review, (item) => {\n          return _createElementVNode(\"span\", {\n            key: item.id\n          }, [\n            _createElementVNode(\"div\", _hoisted_20, [\n              _createElementVNode(\"div\", _hoisted_21, [\n                _createElementVNode(\"p\", _hoisted_22, _toDisplayString(item.username), 1)\n              ]),\n              _hoisted_23\n            ]),\n            _createElementVNode(\"blockquote\", _hoisted_24, [\n              _createElementVNode(\"p\", _hoisted_25, \"\\\"\" + _toDisplayString(item.review) + \"\\\"\", 1)\n            ]),\n            _hoisted_26\n          ])\n        }), 64))\n      ])\n    ])\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "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",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1702085566218,
+      "end": 1702085566218,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702085566219,
+      "end": 1702085566219,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1702085566219,
+      "end": 1702085566220,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702085566220,
+      "end": 1702085566220,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085566220,
+      "end": 1702085566221,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702085566221,
+      "end": 1702085566221,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702085566221,
+      "end": 1702085566221,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702085566223,
+      "end": 1702085566224,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702085566224,
+      "end": 1702085566224,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702085566224,
+      "end": 1702085566224,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702085566225,
+      "end": 1702085566225,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702085566226,
+      "end": 1702085566226,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702085566226,
+      "end": 1702085566226,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702085566226,
+      "end": 1702085566226,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702085566226,
+      "end": 1702085566226,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702085566227,
+      "end": 1702085566227,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702085566227,
+      "end": 1702085566228,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702085566240,
+      "end": 1702085566240,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702085566242,
+      "end": 1702085566243,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702085566244,
+      "end": 1702085566267,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702085566267,
+      "end": 1702085566267,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1702085566284,
+      "end": 1702085566345,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702085566346,
+      "end": 1702085566348,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702085566349,
+      "end": 1702085566350,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702085566350,
+      "end": 1702085566351,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702085566351,
+      "end": 1702085566352,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702085566352,
+      "end": 1702085566352,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702085566352,
+      "end": 1702085566352,
+      "order": "normal"
+    }
+  ]
+}
