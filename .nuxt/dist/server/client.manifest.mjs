@@ -1,1 +1,1 @@
-export { default } from "file:///home/laamyry/alx/HomeMingle/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///home/med/alx/HomeMingle/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
