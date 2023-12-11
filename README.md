@@ -1,6 +1,27 @@
-# Nuxt 3 Minimal Starter
+# Home Mingle Hub
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Home Mingle Hub Logo](https://home-mingle.vercel.app/images/Home-mangle-logo.png)
+
+## Introduction
+
+Welcome to Home Mingle Hub, your go-to platform for connecting homeowners with skilled professionals. This platform simplifies the process of finding reliable experts for various home services, fostering a sense of community and trust.
+
+-   [Deployed Site](https://home-mingle.vercel.app/)
+-   [Final Project Blog Article](link-to-blog-article)
+-   Author(s) LinkedIn:
+    -   [Med Laamyry](https://www.linkedin.com/in/medlaamyry/)
+    -   [Saad Ouchama](https://ma.linkedin.com/in/saadouchama)
+    -   [Author 3](link-to-author-3)
+
+![Home Mingle Hub Screenshot](https://imgur.com/Mt978tu.png)
+
+## Installation
+
+To get started with Home Mingle Hub, follow these simple installation steps:
+
+````bash
+git clone https://github.com/your-username/home-mingle-hub.git
+cd home-mingle-hub
 
 ## Setup
 
@@ -10,15 +31,8 @@ Make sure to install the dependencies:
 # npm
 npm install
 
-# pnpm
-pnpm install
-
 # yarn
 yarn install
-
-# bun
-bun install
-```
 
 ## Development Server
 
@@ -28,15 +42,8 @@ Start the development server on `http://localhost:3000`:
 # npm
 npm run dev
 
-# pnpm
-pnpm run dev
-
 # yarn
 yarn dev
-
-# bun
-bun run dev
-```
 
 ## Production
 
@@ -46,15 +53,8 @@ Build the application for production:
 # npm
 npm run build
 
-# pnpm
-pnpm run build
-
 # yarn
 yarn build
-
-# bun
-bun run build
-```
 
 Locally preview production build:
 
@@ -62,14 +62,6 @@ Locally preview production build:
 # npm
 npm run preview
 
-# pnpm
-pnpm run preview
-
 # yarn
 yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+````

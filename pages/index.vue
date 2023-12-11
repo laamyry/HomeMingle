@@ -1,13 +1,16 @@
+<!-- start of the template -->
 <template class="p-0 m-0">
   <div class="selection:bg-greeny-300">
     <div class="w-[25%] flex items-center mx-auto justify-center font-us-bold uppercase line-clamp-2 text-center mt-20 text-2xl text-darky-700">
       <p>Where Skills Meet Spaces, Crafting Homes to Perfection</p>
     </div>
+    <!-- search bar with two images -->
     <div id="container" class="flex items-center">
       <div id="search" class="flex justify-between items-center float-left w-[80%] mx-auto">
         <dvi id="image1">
           <img src="/images/hammer.png" class="w-52" alt="hammer" />
         </dvi>
+        <!-- search bar -->
         <dvi id="search" class="max-w-md mx-auto w-[40%]">
           <div class="p-2 border border-[#303030] rounded-full relative">
             <input type="search" placeholder="Services near me" class="px-3 bg-transparent border-transparent outline-none w-[92%]" />
@@ -19,9 +22,11 @@
         </dvi>
       </div>
     </div>
+    <!-- services title-->
     <div id="title" class="text-center font-us-bold uppercase text-darky-700">
       <h2 class="underline decoration-4 underline-offset-4 mb-14">Trending services</h2>
     </div>
+    <!-- services section using js to create-->
     <div id="car_container" class="flex justify-center flex-row items-center mx-auto max-w-md gap-5">
       <span v-for="item in services" :key="item.id">
         <div id="card" class="flex flex-col w-64 text-center justify-center">
@@ -39,10 +44,11 @@
         </div>
       </span>
     </div>
+    <!-- review title -->
     <div id="title" class="text-center font-us-bold uppercase text-darky-700">
       <h2 class="underline decoration-4 underline-offset-4 mt-16">customers talking</h2>
     </div>
-
+    <!-- review section using js to create-->
     <div class="w-full flex items-center justify-center mx-auto mt-2">
       <figure class="flex justify-center flex-row mx-auto gap-16 mt-9 self-center">
         <span v-for="item in review" :key="item.id">
@@ -78,8 +84,10 @@
       </figure>
     </div>
   </div>
+  
 </template>
-
+<!-- end of the template -->
+<!-- start of js -->
 <script lang="ts" setup>
 const services = [
   {
@@ -137,7 +145,8 @@ const review = [
   },
 ]
 </script>
-
+<!-- end of js -->
+<!-- optional css -->
 <style>
 #search {
   margin-top: -25px;
