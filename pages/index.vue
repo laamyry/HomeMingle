@@ -28,7 +28,7 @@
     </div>
     <!-- services section using js to create-->
     <div id="car_container" class="flex justify-center flex-row items-center mx-auto max-w-md gap-5">
-      <span v-for="item in services" :key="item.id">
+      <span v-for="item in services">
         <div id="card" class="flex flex-col w-64 text-center justify-center">
           <div id="image" class="shadow-lg">
             <img :src="item.image" :alt="item.title" />
@@ -38,7 +38,7 @@
               {{ item.title }}
             </div>
             <div id="price" class="font-us-regular text-darky-700">
-              {{ 'Starting at ' + item.price + '€' }}
+              {{ 'Starting at '}} <span class="text-greeny-300 font-us-bold">{{ item.price + '€' }}</span>
             </div>
           </div>
         </div>

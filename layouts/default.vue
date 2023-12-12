@@ -144,4 +144,6 @@ import type { NuxtLink } from '#build/components'
   </footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
