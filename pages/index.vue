@@ -152,6 +152,4 @@ const review = [
   margin-top: -25px;
 }
 
-#id1 {
-}
 </style>
