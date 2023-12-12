@@ -3,8 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     'nuxt-icon',
-    '@nuxtjs/tailwindcss'
-  ],
+    '@nuxtjs/tailwindcss',
+ ],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config',

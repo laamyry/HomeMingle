@@ -27,14 +27,14 @@ const categories = ref<Category[]>([
   {
     id: 3,
     name: 'Furniture Assembly',
-    image: '/images/handyman.jpg',
+    image: '/images/furniture-assembly.jpg',
     description: 'Expert Furniture Building Services',
     jobs: ['IKEA Furniture Assembly', 'Custom Furniture Construction', 'Office Furniture Setup'],
   },
   {
     id: 4,
     name: 'Mounting & Installation',
-    image: '/images/handyman.jpg',
+    image: '/images/mounting-installation.jpeg',
     description: 'Secure Mounting and Setup',
     jobs: ['TV Wall Mounting', 'Shelving Installation', 'Appliance Setup'],
   },
@@ -126,7 +126,9 @@ const categories = ref<Category[]>([
             <div class="mt-6 gap-3">
                 <ul>
                     <li v-for="job in item.jobs" :key="job" class="font-us-regular text-greeny-300 mb-4">
-                        <NuxtLink :to="`/${job.replace(/\s+/g, '-')}`">{{ job }}</NuxtLink>
+                        <!-- <NuxtLink :to="`/${job.replace(/\s+/g, '-')}`">{{ job }}</NuxtLink> -->
+                        <NuxtLink :to="'services/' + item.name">{{ job }}</NuxtLink>
+
                         
                     </li>
                 </ul>
@@ -145,7 +147,5 @@ const categories = ref<Category[]>([
 
 
 <style scoped>
-.price{
-    color: aqua;
-}
+
 </style>

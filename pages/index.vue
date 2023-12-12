@@ -7,19 +7,19 @@
     <!-- search bar with two images -->
     <div id="container" class="flex items-center">
       <div id="search" class="flex justify-between items-center float-left w-[80%] mx-auto">
-        <dvi id="image1">
+        <div id="image1">
           <img src="/images/hammer.png" class="w-52" alt="hammer" />
-        </dvi>
+        </div>
         <!-- search bar -->
-        <dvi id="search" class="max-w-md mx-auto w-[40%]">
+        <div id="search" class="max-w-md mx-auto w-[40%]">
           <div class="p-2 border border-[#303030] rounded-full relative">
             <input type="search" placeholder="Services near me" class="px-3 bg-transparent border-transparent outline-none w-[92%]" />
             <Icon name="fa6-solid:magnifying-glass" class="text-greeny-300" />
           </div>
-        </dvi>
-        <dvi id="image2">
+        </div>
+        <div id="image2">
           <img src="/images/drill.png" class="w-52" alt="drill" />
-        </dvi>
+        </div>
       </div>
     </div>
     <!-- services title-->
