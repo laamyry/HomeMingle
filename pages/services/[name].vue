@@ -1,6 +1,6 @@
 <template>
 <div>
-    <StepsForm/>
+    <StepsForm1/>
 </div>
 
 

@@ -18,6 +18,8 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "open": "^9.1.0"
+    "flowbite": "^2.2.1",
+    "open": "^9.1.0",
+    "petite-vue": "^0.4.1"
   }
 }
