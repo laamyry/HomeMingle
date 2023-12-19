@@ -31,8 +31,8 @@
                 <div id="first-tab" class="bg-lighty-100 w-[80%] rounded-lg mx-auto p-9">
 
                     <p class="py-3 ml-8 font-us-regular text-xl">Your task location</p>
-                    <div class="flex justify-center mx-auto focus:outline-none">
-                        <input type="text" class="focus:ring-transparent w-[95%] h-16 rounded border-[#00110A] " />
+                    <div class="flex justify-center mx-auto border rounded border-[#00110A]  w-[95%]">
+                        <input id="input" type="text" class="focus:ring-transparent h-16 w-[99%] " />
 
                     </div>
                 </div>
@@ -121,5 +121,8 @@ const steps = [
 </script>
 
 <style>
-/* Optional custom styles for buttons, etc. */
+#input {
+    border: none;
+    outline: none;
+}
 </style>
