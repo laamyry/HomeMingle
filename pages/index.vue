@@ -15,7 +15,7 @@
                 <div id="search" class="max-w-md mx-auto w-[40%]">
                     <div class="p-2 border border-[#303030] rounded-full relative">
                         <input type="search" placeholder="Services near me"
-                            class="px-3 bg-transparent border-transparent outline-none w-[92%]" />
+                            class="px-3 bg-transparent border-transparent focus:ring-transparent outline-none w-[92%]" />
                         <Icon name="fa6-solid:magnifying-glass" class="text-greeny-300" />
                     </div>
                 </div>
@@ -158,6 +158,8 @@ const review = [
 </script>
 <!-- end of js -->
 <!-- optional css -->
-<style>#search {
+<style>
+#search {
     margin-top: -25px;
-}</style>
+}
+</style>
